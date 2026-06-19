@@ -126,7 +126,7 @@
 
 本ポリシーまたはデータの取り扱いに関するお問い合わせは、以下までご連絡ください。
 
-- 連絡先：spiral.eigo.support@gmail.com
+- 連絡先：mac.sa2ki25@gmail.com
 
 ---
 
