@@ -14,6 +14,23 @@ let allRequests = [];
 let groupFilter = 'all';
 let showHandled = false;
 
+// 印刷に含める項目(チェックを外すと body に p-no-XXX クラスが付き、印刷で非表示)
+const PRINT_ITEMS = [
+  { key: 'choices', label: '選択肢', cls: 'p-no-choices', def: true },
+  { key: 'answer', label: '正解', cls: 'p-no-answer', def: true },
+  { key: 'tr', label: '和訳', cls: 'p-no-tr', def: true },
+  { key: 'exp', label: '解説', cls: 'p-no-exp', def: false },
+  { key: 'col', label: 'コラム', cls: 'p-no-col', def: false },
+  { key: 'names', label: '生徒名', cls: 'p-no-names', def: false },
+  { key: 'comments', label: 'コメント', cls: 'p-no-comments', def: false },
+];
+let printItemsInit = false;
+function initPrintItems() {
+  if (printItemsInit) return;
+  printItemsInit = true;
+  for (const it of PRINT_ITEMS) if (!it.def) document.body.classList.add(it.cls);
+}
+
 function fmtDate(ms) {
   if (!ms) return '';
   const d = new Date(ms);
@@ -58,9 +75,9 @@ async function reload() {
   if (DEMO) {
     const now = Date.now();
     allRequests = [
-      { id: 'a_q00001', questionId: 'q00001', uid: 'a', nickname: 'みかん', groupCodes: ['12345'], handled: false, createdAt: now - 3600000 },
-      { id: 'b_q00001', questionId: 'q00001', uid: 'b', nickname: 'たろう', groupCodes: ['12345'], handled: false, createdAt: now - 1800000 },
-      { id: 'c_q00050', questionId: 'q00050', uid: 'c', nickname: 'こうちゃん', groupCodes: ['12345'], handled: false, createdAt: now - 900000 },
+      { id: 'a_q00001', questionId: 'q00001', uid: 'a', nickname: 'みかん', groupCodes: ['12345'], comment: 'なぜ②have goneではダメなのか分かりません', handled: false, createdAt: now - 3600000 },
+      { id: 'b_q00001', questionId: 'q00001', uid: 'b', nickname: 'たろう', groupCodes: ['12345'], comment: '', handled: false, createdAt: now - 1800000 },
+      { id: 'c_q00050', questionId: 'q00050', uid: 'c', nickname: 'こうちゃん', groupCodes: ['12345'], comment: 'have only to do の意味が知りたいです', handled: false, createdAt: now - 900000 },
     ];
     renderAll();
     return;
@@ -98,6 +115,7 @@ function buildGroups() {
 }
 
 function renderAll() {
+  initPrintItems();
   app.innerHTML = '';
   const groups = buildGroups();
   const codes = groupCodesPresent();
@@ -110,18 +128,26 @@ function renderAll() {
   const handledChk = el('input', { type: 'checkbox' });
   handledChk.checked = showHandled;
   handledChk.addEventListener('change', () => { showHandled = handledChk.checked; renderAll(); });
-  const namesChk = el('input', { type: 'checkbox' });
-  namesChk.checked = !document.body.classList.contains('hide-print-names');
-  namesChk.addEventListener('change', () => { document.body.classList.toggle('hide-print-names', !namesChk.checked); });
+
+  // 印刷項目チェックボックス
+  const printChecks = PRINT_ITEMS.map((it) => {
+    const cb = el('input', { type: 'checkbox' });
+    cb.checked = !document.body.classList.contains(it.cls);
+    cb.addEventListener('change', () => { document.body.classList.toggle(it.cls, !cb.checked); });
+    return el('label', { class: 'ck' }, [cb, el('span', { text: ' ' + it.label })]);
+  });
 
   app.appendChild(el('div', { class: 'controls no-print' }, [
     el('div', { class: 'ctitle', text: `🧑‍🏫 補習リクエスト一覧（${groups.length}問）` }),
     el('div', { class: 'ctrl-row' }, [
       groupSel,
       el('label', { class: 'ck' }, [handledChk, el('span', { text: ' 解説済みも表示' })]),
-      el('label', { class: 'ck' }, [namesChk, el('span', { text: ' 印刷に生徒名を含める' })]),
       el('button', { class: 't-btn ghost', onclick: reload, text: '🔄 更新' }),
       el('button', { class: 't-btn', onclick: () => window.print(), text: '🖨 印刷' }),
+    ]),
+    el('div', { class: 'print-items' }, [
+      el('span', { class: 'pi-label', text: '印刷に含める項目：' }),
+      ...printChecks,
     ]),
   ]));
 
@@ -169,14 +195,15 @@ function qcard(g, num) {
   q.choices.forEach((c, i) => {
     const correct = i === q.answer_index;
     ch.appendChild(el('div', { class: 'qchoice' + (correct ? ' correct' : '') }, [
-      el('span', { text: `${LABELS[i]} ${c}` }), correct ? el('span', { text: '　✓ 正解' }) : null,
+      el('span', { text: `${LABELS[i]} ${c}` }),
+      correct ? el('span', { class: 'correct-mark', text: '　✓ 正解' }) : null,
     ]));
   });
   card.appendChild(ch);
 
-  // 和訳・解説
-  card.appendChild(el('div', { class: 'qblock' }, [el('b', { text: '和訳　' }), el('span', { text: q.translation ?? '' })]));
-  card.appendChild(el('div', { class: 'qblock' }, [el('b', { text: '解説' }), el('div', { class: 'qexp', text: q.explanation ?? '' })]));
+  // 和訳・解説・コラム
+  card.appendChild(el('div', { class: 'qblock tr' }, [el('b', { text: '和訳　' }), el('span', { text: q.translation ?? '' })]));
+  card.appendChild(el('div', { class: 'qblock exp' }, [el('b', { text: '解説' }), el('div', { class: 'qexp', text: q.explanation ?? '' })]));
   if (q.column) card.appendChild(el('div', { class: 'qcolumn', text: q.column }));
 
   // リクエストした生徒
@@ -186,6 +213,18 @@ function qcard(g, num) {
     el('span', { text: names.join('、') }),
     el('span', { class: 'muted', text: `　（${g.requesters.length}件・最新 ${fmtDate(Math.max(...g.requesters.map((r) => r.createdAt)))}）` }),
   ]));
+
+  // 生徒のコメント(何が分からなかったか)
+  const withComment = g.requesters.filter((r) => (r.comment ?? '').trim());
+  if (withComment.length) {
+    card.appendChild(el('div', { class: 'comments' }, [
+      el('b', { text: '💬 生徒のコメント' }),
+      ...withComment.map((r) => el('div', { class: 'comment-line' }, [
+        el('span', { class: 'cname', text: `${r.nickname}：` }),
+        el('span', { text: r.comment }),
+      ])),
+    ]));
+  }
 
   // 解説済みトグル(印刷では非表示)
   card.appendChild(el('div', { class: 'no-print', style: { marginTop: '8px' } }, [

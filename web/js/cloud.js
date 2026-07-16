@@ -289,7 +289,7 @@ export async function getMyHelpRequests() {
   return ids;
 }
 
-export async function requestHelp(questionId) {
+export async function requestHelp(questionId, comment = '') {
   const f = await ensureFb();
   const user = await ensureAnonUser();
   if (!f || !user) return { ok: false, reason: 'offline' };
@@ -300,6 +300,7 @@ export async function requestHelp(questionId) {
   const codes = await readMyCodes(f, user.uid);
   await setDoc(doc(f.db, 'helpRequests', `${user.uid}_${questionId}`), {
     questionId, uid: user.uid, nickname, groupCodes: codes,
+    comment: String(comment ?? '').slice(0, 300),
     handled: false, createdAt: serverTimestamp(),
   });
   return { ok: true };
@@ -326,6 +327,7 @@ export async function listHelpRequests() {
     out.push({
       id: d.id, questionId: data.questionId, uid: data.uid,
       nickname: data.nickname ?? '匿名', groupCodes: data.groupCodes ?? [],
+      comment: data.comment ?? '',
       handled: !!data.handled, createdAt: data.createdAt?.toMillis?.() ?? 0,
     });
   });
