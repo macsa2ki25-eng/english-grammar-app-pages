@@ -1,6 +1,6 @@
 // オフライン対応。アプリ本体(シェル+問題データ)をキャッシュする。
 // Firebase(gstatic)や Firestore へのリクエストはキャッシュせずネット経由。
-const CACHE = 'spiral-grammar-v4';
+const CACHE = 'spiral-grammar-v5';
 const ASSETS = [
   './',
   './index.html',

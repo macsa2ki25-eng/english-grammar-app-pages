@@ -32,7 +32,7 @@ body {
 }
 button { font-family: inherit; cursor: pointer; }
 
-#root { display: flex; flex-direction: column; height: 100dvh; max-width: var(--maxw); margin: 0 auto; background: var(--bg); position: relative; }
+#root { display: flex; flex-direction: column; height: 100vh; height: 100dvh; height: 100svh; max-width: var(--maxw); margin: 0 auto; background: var(--bg); position: relative; }
 #app { flex: 1; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 .pad { padding: 16px; }
 
@@ -130,11 +130,19 @@ button { font-family: inherit; cursor: pointer; }
 .retry-hint { background: var(--gold-bg); color: #92600b; text-align: center; font-weight: 800; padding: 12px; border-radius: 12px; }
 
 .panel {
-  position: absolute; left: 0; right: 0; bottom: 0; background: var(--surface);
-  border-radius: 20px 20px 0 0; padding: 18px 16px calc(16px + env(safe-area-inset-bottom,0));
-  box-shadow: 0 -6px 24px rgba(0,0,0,.14); max-height: 78%; display: flex; flex-direction: column;
+  position: fixed; left: 0; right: 0; bottom: 0; margin-left: auto; margin-right: auto;
+  max-width: var(--maxw); background: var(--surface);
+  border-radius: 20px 20px 0 0;
+  padding: 16px 16px calc(14px + env(safe-area-inset-bottom, 0px));
+  box-shadow: 0 -6px 24px rgba(0,0,0,.14); max-height: 82dvh; max-height: 82svh;
+  display: grid; grid-template-rows: auto minmax(0, 1fr) auto;
   animation: slideup .32s cubic-bezier(.2,.9,.3,1);
 }
+.panel-actions { padding-top: 8px; display: flex; flex-direction: column; gap: 8px; }
+.panel-btn-row { display: flex; gap: 8px; }
+.panel-btn-row .btn { width: auto; flex: 1.3; padding: 13px 8px; }
+.panel-btn-row .help-btn { flex: 1; padding: 13px 8px; box-shadow: 0 3px 0 var(--test-tint); }
+.panel .shelf-btn { padding: 11px 10px; font-size: calc(14px * var(--fs)); }
 @keyframes slideup { from { transform: translateY(100%); } to { transform: translateY(0); } }
 .panel.correct { border-top: 4px solid var(--correct); }
 .panel.wrong { border-top: 4px solid var(--wrong); }
@@ -145,9 +153,7 @@ button { font-family: inherit; cursor: pointer; }
 .verdict .vtext { font-size: calc(24px * var(--fs)); font-weight: 900; }
 .verdict.correct .vtext { color: var(--correct); }
 .verdict.wrong .vtext { color: var(--wrong); }
-.detail { overflow-y: auto; flex: 1 1 auto; min-height: 0; }
-/* パネル下部のボタン群は常に見えるように縮まない */
-.panel .btn, .panel .shelf-btn, .panel .help-btn { flex: 0 0 auto; }
+.detail { overflow-y: auto; min-height: 0; }
 .block-label { font-weight: 800; color: var(--primary-dark); font-size: 13px; margin: 10px 0 4px; }
 .block-text { font-size: calc(14px * var(--fs)); line-height: 1.7; white-space: pre-wrap; }
 .column-box { background: var(--surface-alt); border: 1px solid var(--border); border-radius: 12px; padding: 12px; margin-top: 10px; }

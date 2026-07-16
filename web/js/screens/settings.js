@@ -6,7 +6,7 @@ import {
   setNickname, createGroup, joinGroup, leaveGroup, getMyGroups,
 } from '../cloud.js';
 
-const APP_VERSION = 'v1.3';
+const APP_VERSION = 'v1.4';
 const FONT_OPTIONS = [['0.9', '小'], ['1', '中'], ['1.15', '大'], ['1.3', '特大']];
 const HOURS = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23];
 

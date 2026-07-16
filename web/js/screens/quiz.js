@@ -193,32 +193,35 @@ export function QuizScreen(params) {
     ]);
     panel.appendChild(detail);
 
-    // 付箋操作(初回正解時のみ)
+    // 下部の操作ボタン(常に見えるフッター)
+    const footer = el('div', { class: 'panel-actions' });
+
+    // 付箋操作(初回正解時のみ・単独の行)
     if (firstAttemptCorrect) {
       if (onShelf() || shelfRemoved) {
-        const b = el('button', {
+        footer.appendChild(el('button', {
           class: 'btn secondary shelf-btn', disabled: shelfRemoved,
           onclick: () => { if (shelfRemoved) return; shelfRemoved = true; graduateIds.add(cur.id); rerender(); },
-        }, [el('span', { text: shelfRemoved ? '付箋をはがしました（もう出題されません）' : 'もう覚えた → 付箋をはがす' })]);
-        panel.appendChild(b);
+        }, [el('span', { text: shelfRemoved ? '付箋をはがしました（もう出題されません）' : 'もう覚えた → 付箋をはがす' })]));
       } else {
-        const b = el('button', {
+        footer.appendChild(el('button', {
           class: 'btn secondary shelf-btn', disabled: shelfMarked,
           onclick: () => { if (shelfMarked) return; shelfMarked = true; forceShelfIds.add(cur.id); rerender(); },
-        }, [el('span', { text: shelfMarked ? '付箋を貼りました' : 'あやしい / たまたま → 付箋を貼る' })]);
-        panel.appendChild(b);
+        }, [el('span', { text: shelfMarked ? '付箋を貼りました' : 'あやしい / たまたま → 付箋を貼る' })]));
       }
     }
 
-    // 補習で解説してほしい
-    const help = helpButton(cur.id);
-    help.style.marginTop = '10px';
-    panel.appendChild(help);
-
-    panel.appendChild(el('button', {
-      class: 'btn', style: { marginTop: '12px' }, onclick: next,
+    // 補習希望 と 次の問題へ を横並びに(縦のスペースを節約)
+    const nextBtn = el('button', {
+      class: 'btn', onclick: next,
       text: index === questions.length - 1 ? '結果を見る' : '次の問題へ',
-    }));
+    });
+    footer.appendChild(el('div', { class: 'panel-btn-row' }, [
+      helpButton(cur.id, { short: true }),
+      nextBtn,
+    ]));
+
+    panel.appendChild(footer);
     return panel;
   }
 

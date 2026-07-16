@@ -59,7 +59,9 @@ export function helpButton(questionId, opts = {}) {
     },
   }, [
     el('span', {
-      text: requested ? '✅ 補習リクエスト済み（取り消す）' : '🙋 補習で解説してほしい',
+      text: opts.short
+        ? (requested ? '✅ 希望中' : '🙋 補習希望')
+        : (requested ? '✅ 補習リクエスト済み（取り消す）' : '🙋 補習で解説してほしい'),
     }),
   ]);
   return btn;
