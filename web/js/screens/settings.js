@@ -6,6 +6,7 @@ import {
   setNickname, createGroup, joinGroup, leaveGroup, getMyGroups,
 } from '../cloud.js';
 
+const APP_VERSION = 'v1.3';
 const FONT_OPTIONS = [['0.9', '小'], ['1', '中'], ['1.15', '大'], ['1.3', '特大']];
 const HOURS = [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23];
 
@@ -95,8 +96,28 @@ export function SettingsScreen() {
   // アプリについて
   wrap.appendChild(el('div', { class: 'section-label', text: 'このアプリ' }));
   wrap.appendChild(el('div', { class: 'card' }, [
-    el('div', { class: 'card-sub', text: 'スパイラル英文法 Web版 v1.2' }),
+    el('div', { class: 'card-sub', text: `スパイラル英文法 Web版 ${APP_VERSION}` }),
     el('div', { class: 'card-sub', style: { marginTop: '6px' }, text: 'ブラウザのメニューから「ホーム画面に追加」すると、アプリのように使えてオフラインでも動きます。' }),
+    el('button', {
+      class: 'btn secondary', style: { marginTop: '12px' },
+      onclick: async (e) => {
+        const btn = e.currentTarget;
+        btn.disabled = true;
+        btn.textContent = '更新中…';
+        try {
+          if ('serviceWorker' in navigator) {
+            const regs = await navigator.serviceWorker.getRegistrations();
+            await Promise.all(regs.map((r) => r.unregister()));
+          }
+          if (window.caches) {
+            const keys = await caches.keys();
+            await Promise.all(keys.map((k) => caches.delete(k)));
+          }
+        } catch {}
+        location.reload();
+      },
+      text: '🔄 最新に更新（キャッシュをクリア）',
+    }),
   ]));
 
   wrap.appendChild(el('div', { class: 'section-label', text: '先生用' }));

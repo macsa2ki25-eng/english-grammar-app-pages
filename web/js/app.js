@@ -70,7 +70,11 @@ const origNavigate = navigate;
 
 async function boot() {
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('./sw.js').catch(() => {});
+    // updateViaCache:'none' で sw.js の更新チェックがHTTPキャッシュを無視する
+    navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' }).then((reg) => {
+      // 起動のたびに更新チェック。新版があれば取り込む
+      reg.update().catch(() => {});
+    }).catch(() => {});
   }
   await loadData();
   await initState();

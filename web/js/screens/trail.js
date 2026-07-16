@@ -73,8 +73,9 @@ export function TrailScreen() {
     el('div', { style: { fontWeight: 800 }, text: `${viewMonth.year}年${viewMonth.month + 1}月` }),
     el('button', { text: '›', onclick: () => { viewMonth = shiftMonth(viewMonth, 1); rerenderTrail(); } }),
   ]));
-  calCard.appendChild(el('div', { class: 'week-row' }, WEEK.map((w) => el('div', { class: 'w', text: w }))));
+  // 曜日ヘッダーも同じグリッドに入れて列を完全一致させる
   const grid = el('div', { class: 'cal-grid' });
+  for (const w of WEEK) grid.appendChild(el('div', { class: 'cal-wcell', text: w }));
   for (const cell of buildCalendar(viewMonth.year, viewMonth.month)) {
     if (!cell.inMonth) { grid.appendChild(el('div', { class: 'cal-cell' })); continue; }
     const answered = daily.get(cell.date)?.answered ?? 0;
