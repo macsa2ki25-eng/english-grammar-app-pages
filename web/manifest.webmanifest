@@ -1,0 +1,17 @@
+{
+  "name": "スパイラル英文法",
+  "short_name": "スパイラル英文法",
+  "description": "大学受験向けの英文法4択ドリル。付箋で覚える、忘れにくい復習。",
+  "lang": "ja",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#15803D",
+  "theme_color": "#15803D",
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

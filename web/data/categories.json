@@ -1,0 +1,4487 @@
+[
+  {
+    "large": "時制",
+    "mediums": [
+      {
+        "medium": "現在完了",
+        "smalls": [
+          "It has been ... since(時の経過)",
+          "It is/has been ... since(時の経過)",
+          "for と since の区別",
+          "have been to(完了/経験)",
+          "have gone to(結果)",
+          "否定(haven't ... yet)",
+          "完了・結果",
+          "完了・結果(just)",
+          "時の経過(years have passed)",
+          "状態の継続(be dead)",
+          "経験(never...before)",
+          "継続(be 動詞+形容詞)",
+          "継続(動作動詞)",
+          "継続(状態動詞 know)",
+          "起点を導く接続詞 since"
+        ]
+      },
+      {
+        "medium": "過去形",
+        "smalls": [
+          "just now と過去形",
+          "when と過去形(現在完了不可)",
+          "状態動詞は進行形にしない",
+          "過去の一定期間(完了した過去)",
+          "過去の出来事(単純過去)",
+          "過去の状態",
+          "過去の習慣的動作"
+        ]
+      },
+      {
+        "medium": "過去完了",
+        "smalls": [
+          "大過去(気づく前に起きた動作)",
+          "比較対象の過去完了",
+          "過去のある時点までの完了(大過去)",
+          "過去のある時点までの経験",
+          "過去完了の受動態"
+        ]
+      },
+      {
+        "medium": "時・条件の副詞節",
+        "smalls": [
+          "副詞節中の現在完了(未来時点までの完了)",
+          "副詞節中は未来も現在形で表す"
+        ]
+      },
+      {
+        "medium": "未来完了",
+        "smalls": [
+          "未来のある時点までの完了(will have+pp)",
+          "未来のある時点までの継続",
+          "未来完了の経験(回数)"
+        ]
+      },
+      {
+        "medium": "現在形",
+        "smalls": [
+          "不変の真理(現在形)",
+          "事実・規定を表す現在形",
+          "状態動詞(進行形にしない)",
+          "現在の習慣"
+        ]
+      },
+      {
+        "medium": "過去進行形",
+        "smalls": [
+          "過去のある時点で進行中の動作",
+          "過去の未完了動作"
+        ]
+      },
+      {
+        "medium": "名詞節中の時制",
+        "smalls": [
+          "if/whether の名詞節は未来形可",
+          "名詞節(if/whether)は未来形可",
+          "名詞節は未来も will のまま"
+        ]
+      },
+      {
+        "medium": "未来表現",
+        "smalls": [
+          "be about to(まさに〜しようとしている)",
+          "be going to の否定",
+          "be going to(予定・意図)",
+          "be going to(兆候からの予測)",
+          "will(未来の予測)"
+        ]
+      },
+      {
+        "medium": "現在完了進行形",
+        "smalls": [
+          "過去から現在までの継続(動作動詞)"
+        ]
+      },
+      {
+        "medium": "未来進行形",
+        "smalls": [
+          "未来のある時点で進行中の動作"
+        ]
+      },
+      {
+        "medium": "現在進行形",
+        "smalls": [
+          "今まさに進行中の動作",
+          "現在進行形による確定予定"
+        ]
+      },
+      {
+        "medium": "過去完了進行形",
+        "smalls": [
+          "過去のある時点までの動作の継続"
+        ]
+      },
+      {
+        "medium": "未来完了進行形",
+        "smalls": [
+          "未来のある時点までの動作の継続"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "態",
+    "mediums": [
+      {
+        "medium": "受動態+前置詞",
+        "smalls": [
+          "be interested in(前置詞 in)",
+          "be caught in(雨などにあう)",
+          "be known as(〜として知られる)",
+          "be caught in(雨・渋滞に遭う)",
+          "be covered with",
+          "be interested in",
+          "be interested in (+ 動名詞)",
+          "be known as",
+          "be known to",
+          "be satisfied with"
+        ]
+      },
+      {
+        "medium": "助動詞+受動態",
+        "smalls": [
+          "助動詞 + be + 過去分詞",
+          "can be done",
+          "had to be done",
+          "must be done",
+          "mustn't be done",
+          "should be done",
+          "should have been done(〜されるべきだった)",
+          "will be done"
+        ]
+      },
+      {
+        "medium": "受動態の基本",
+        "smalls": [
+          "to be + 過去分詞",
+          "現在形の受動態(理由節)",
+          "be used to do(〜するために使われる)",
+          "動詞の選択(人にはinjure)",
+          "現在形の受動態",
+          "過去形の受動態",
+          "第4文型(SVOO)の受動態"
+        ]
+      },
+      {
+        "medium": "群動詞の受動態",
+        "smalls": [
+          "be spoken to(前置詞を残す)",
+          "laugh at",
+          "look up to",
+          "speak to",
+          "take care of"
+        ]
+      },
+      {
+        "medium": "完了形の受動態",
+        "smalls": [
+          "have been + 過去分詞(主語の数の一致)",
+          "現在完了の受動態",
+          "現在完了の受動態(副詞の位置)",
+          "現在完了の受動態(否定)",
+          "過去完了の受動態"
+        ]
+      },
+      {
+        "medium": "進行形の受動態",
+        "smalls": [
+          "be being + 過去分詞",
+          "現在進行形の受動態",
+          "能動→受動の書き換え(進行形)"
+        ]
+      },
+      {
+        "medium": "使役・知覚動詞の受動態",
+        "smalls": [
+          "be seen to do(原形→to不定詞)",
+          "be heard to do(知覚の受動)",
+          "be made to do(使役の受動)",
+          "知覚動詞 see + O + 原形(能動)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "主語と動詞の一致",
+    "mediums": [
+      {
+        "medium": "相関接続詞",
+        "smalls": [
+          "neither A nor B(Bに一致)",
+          "not only A but also B(Bに一致)",
+          "Neither A nor B(B に一致)",
+          "Neither A nor B(B に一致、受動)",
+          "Not only A but also B(B に一致)",
+          "neither A nor B",
+          "not only A but (also) B",
+          "not only A but also B"
+        ]
+      },
+      {
+        "medium": "a number of/the number of",
+        "smalls": [
+          "The number of + 複数(単数扱い)",
+          "A number of + 複数(複数扱い)",
+          "A number of + 複数動詞",
+          "The number of + has + 過去分詞",
+          "The number of + 単数動詞",
+          "the police(複数扱い)",
+          "The police + 複数動詞"
+        ]
+      },
+      {
+        "medium": "one of",
+        "smalls": [
+          "One of + 単数動詞",
+          "one of those who + 複数動詞"
+        ]
+      },
+      {
+        "medium": "There構文・倒置",
+        "smalls": [
+          "関係副詞 where + there is/are",
+          "There 動詞 + 複数名詞",
+          "Were there + 複数名詞?",
+          "Not only + 助動詞 + S(倒置)"
+        ]
+      },
+      {
+        "medium": "部分・分数の一致",
+        "smalls": [
+          "One of + 複数(単数扱い)",
+          "分数/割合 of + 名詞(名詞に一致)",
+          "分数 + of + 不可算 + 単数動詞"
+        ]
+      },
+      {
+        "medium": "動名詞主語",
+        "smalls": [
+          "動名詞句が主語→単数(三単現)",
+          "動名詞句が主語→単数扱い",
+          "動名詞主語 + 単数動詞"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "助動詞",
+    "mediums": [
+      {
+        "medium": "推量",
+        "smalls": [
+          "can't be(〜のはずがない)",
+          "may(〜かもしれない)",
+          "must(〜に違いない)",
+          "can't have been+pp(過去の受動の否定推量)",
+          "can't have+pp(〜したはずがない)",
+          "cannot have+pp(〜したはずがない)",
+          "could never have+pp(想像もできなかった)",
+          "couldn't have+pp(〜したはずがない)",
+          "may be(〜かもしれない)",
+          "may have+pp(〜したかもしれない)",
+          "might have+pp(過去への弱い推量)",
+          "must be(〜にちがいない)",
+          "must have+pp(過去の推量)",
+          "must have+pp(過去への推量)",
+          "ought to have+pp(〜したはずだ)",
+          "should have+pp(〜したはずだ)",
+          "can't have + 過去分詞(〜したはずがない)",
+          "might have + 過去分詞(〜したかもしれない)",
+          "must have + 過去分詞(〜したに違いない)"
+        ]
+      },
+      {
+        "medium": "慣用表現",
+        "smalls": [
+          "have only to do(〜しさえすればよい)",
+          "How dare you ~!(よくも〜できるな)",
+          "cannot be too + 形容詞(いくら〜してもしすぎない)",
+          "cannot help doing(〜せずにはいられない)",
+          "might as well + 原形(〜したほうがましだ)",
+          "Can you believe ~?",
+          "How dare you ~?(よくも〜できたものだ)",
+          "can't help doing(〜せずにいられない)",
+          "cannot be too ~(いくら〜してもしすぎることはない)",
+          "couldn't have been + 比較級(最上級的意味)",
+          "might as well do(〜した方がいい)",
+          "need hardly be said(言うまでもない)",
+          "take a look at",
+          "謝罪への返答",
+          "would like to do(〜したい)"
+        ]
+      },
+      {
+        "medium": "悔やみ・非難",
+        "smalls": [
+          "should have + 過去分詞(〜すべきだった)",
+          "ought not to have+pp(〜すべきでなかった)",
+          "should have+pp(〜すべきだったのに)",
+          "shouldn't have+pp(〜すべきでなかったのに)"
+        ]
+      },
+      {
+        "medium": "過去の習慣",
+        "smalls": [
+          "used to + 原形(過去の習慣・状態)",
+          "would(過去の習慣)",
+          "wouldn't(過去の拒絶)",
+          "used to + 受動態",
+          "used to be(過去の状態)",
+          "used to do(過去の状態)",
+          "used to do(過去の習慣)",
+          "used to(代動詞的用法)",
+          "would(過去の習慣的動作)"
+        ]
+      },
+      {
+        "medium": "仮定法現在",
+        "smalls": [
+          "insist that S (should) 原形",
+          "demand that S (should) do",
+          "demand that S be done",
+          "essential that S (should) do",
+          "essential that S be done",
+          "insist that S (should) do",
+          "recommend that S (should) do",
+          "request that S (should) do",
+          "suggest that S (should) do",
+          "動詞の選択(propose)",
+          "感情・判断+that S should do"
+        ]
+      },
+      {
+        "medium": "would rather",
+        "smalls": [
+          "would rather + 原形",
+          "would rather not + 原形(否定)",
+          "would rather A than B",
+          "would rather do(〜したい)",
+          "would rather not do(〜したくない)"
+        ]
+      },
+      {
+        "medium": "禁止・不要",
+        "smalls": [
+          "must not(禁止)",
+          "need not + 原形(〜する必要がない)",
+          "must not(〜してはいけない)",
+          "don't have to(〜する必要はない)",
+          "needn't have+pp(〜する必要はなかったのに)",
+          "needn't(〜する必要はない)"
+        ]
+      },
+      {
+        "medium": "助言・忠告",
+        "smalls": [
+          "should(〜したほうがよい)",
+          "had better + 原形(〜したほうがよい)",
+          "had better not do(〜しない方がよい)"
+        ]
+      },
+      {
+        "medium": "許可・能力",
+        "smalls": [
+          "May I ~?(許可を求める)",
+          "can(〜してよい)",
+          "Can I ~?(許可を求める)",
+          "can(〜してもよい)",
+          "you may(〜してよい)",
+          "was able to(過去の1回の達成)",
+          "was able to(過去の実現)"
+        ]
+      },
+      {
+        "medium": "過去の強い拒絶",
+        "smalls": [
+          "would not(どうしても〜しなかった)",
+          "would not(物が動かない)"
+        ]
+      },
+      {
+        "medium": "必要",
+        "smalls": [
+          "either A or B + 動詞の一致",
+          "had to(must の過去)",
+          "have to(〜しなければならない)",
+          "will have to(must の未来)"
+        ]
+      },
+      {
+        "medium": "義務",
+        "smalls": [
+          "have to(〜しなければならない)",
+          "don't have to(必要はない)",
+          "have got to(〜しなければならない)",
+          "must(〜しなければならない)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "不定詞",
+    "mediums": [
+      {
+        "medium": "副詞用法",
+        "smalls": [
+          "in order to do(目的の強調)",
+          "so as not to do(〜しないように)",
+          "感情の原因(be relieved to do)",
+          "目的「〜するために」",
+          "結果(live to be ...)",
+          "be careful not to do",
+          "so + 形容詞 + as to do",
+          "in order not to do(〜しないように)",
+          "in order to do(〜するために)",
+          "to do(〜するために)",
+          "live to be + 数字(〜歳まで生きる)",
+          "only to do(残念な結果)",
+          "to find that ~(〜してみると…だった)",
+          "too + 形容詞 + for + 人 + to do",
+          "too + 形容詞 + for there to do",
+          "too + 形容詞 + to do",
+          "形容詞 + enough + (for + 人) + to do",
+          "形容詞 + enough + to do"
+        ]
+      },
+      {
+        "medium": "形容詞用法",
+        "smalls": [
+          "-where/-thing + 形容詞 + to do",
+          "the first + 名詞 + to do",
+          "名詞 + to do + 前置詞(deal with)",
+          "名詞 + to do(〜するための)",
+          "代名詞 + to do",
+          "代名詞 + to do(前置詞を伴う)",
+          "前置詞 + 不定詞(to do with / on / about)",
+          "前置詞 + 不定詞(to sit on など)",
+          "名詞 + to do",
+          "名詞 + to do(すべきこと)",
+          "最上級・序数 + 名詞 + to do"
+        ]
+      },
+      {
+        "medium": "名詞用法",
+        "smalls": [
+          "decide to do(目的語に不定詞)",
+          "補語になる不定詞",
+          "be taught (not) to do",
+          "be told (not) to do",
+          "be warned (not) to do",
+          "decide + to do",
+          "decide / make up one's mind + to do",
+          "persuade + 人 + (not) to do",
+          "tell + 人 + (not) to do",
+          "try not to do"
+        ]
+      },
+      {
+        "medium": "形式主語",
+        "smalls": [
+          "It is ... for 人 to do",
+          "It is ~ for + 人 + to do",
+          "It is ~ of + 人 + to do(性格・態度)",
+          "It is ~ to do"
+        ]
+      },
+      {
+        "medium": "慣用表現",
+        "smalls": [
+          "to say nothing of(〜は言うまでもなく)",
+          "to say the least(控えめに言っても)",
+          "Needless to say(言うまでもなく)",
+          "Strange to say(奇妙なことに)",
+          "To begin with(まず初めに)",
+          "To tell the truth(実を言うと)",
+          "to say the least(控えめに言って)"
+        ]
+      },
+      {
+        "medium": "疑問詞+to do",
+        "smalls": [
+          "how to do(〜の仕方)",
+          "how to do",
+          "what to do",
+          "whether to do"
+        ]
+      },
+      {
+        "medium": "代不定詞",
+        "smalls": [
+          "代不定詞(want to で to のみ残す)",
+          "代不定詞(not to のみ残す)",
+          "代不定詞(to のみ残す)"
+        ]
+      },
+      {
+        "medium": "完了不定詞",
+        "smalls": [
+          "be said to have been+pp(過去の受動)",
+          "be said to have+pp(〜だったと言われている)",
+          "seem to have + 過去分詞(時のずれ)",
+          "seem to have+pp(時制のずれ)"
+        ]
+      },
+      {
+        "medium": "不定詞の重要構文",
+        "smalls": [
+          "only to do(結果:〜したが結局…)",
+          "too ... to do(〜すぎて…できない)",
+          "形容詞 + enough + to do",
+          "not to do(否定は to の前に not)"
+        ]
+      },
+      {
+        "medium": "形式目的語",
+        "smalls": [
+          "find it C to do",
+          "find it ~ to do"
+        ]
+      },
+      {
+        "medium": "be to不定詞",
+        "smalls": [
+          "be to be + 過去分詞(予定)",
+          "be to have+pp(実現しなかった予定)",
+          "予定(be to do)"
+        ]
+      },
+      {
+        "medium": "tough構文",
+        "smalls": [
+          "difficult + to do",
+          "easy / hard / difficult + to do + 前置詞"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "動名詞",
+    "mediums": [
+      {
+        "medium": "慣用表現",
+        "smalls": [
+          "It goes without saying that ...",
+          "There is no doing(〜できない)",
+          "There is no use doing(〜しても無駄)",
+          "feel like doing(〜したい気がする)",
+          "have difficulty (in) doing",
+          "on doing(〜するとすぐに)",
+          "It goes without saying that ~",
+          "It is no use doing(〜しても無駄だ)",
+          "It is worthwhile to do",
+          "There is no doing(〜することはできない)",
+          "There is no use doing(〜しても無駄だ)",
+          "be worth doing(〜する価値がある)",
+          "feel like doing(前置詞の選択)",
+          "feel like doing(動詞の選択)",
+          "need doing(= need to be done)"
+        ]
+      },
+      {
+        "medium": "to+動名詞",
+        "smalls": [
+          "What do you say to doing?",
+          "be used to doing(〜に慣れている)",
+          "get used to doing(慣れてくる)",
+          "look forward to doing",
+          "be accustomed to doing",
+          "be used to + 受動動名詞",
+          "be used to doing",
+          "get used to doing",
+          "objection to + doing",
+          "objection to + doing(受動)",
+          "when it comes to doing"
+        ]
+      },
+      {
+        "medium": "動名詞の意味上の主語",
+        "smalls": [
+          "agree to 人's doing",
+          "complain about 人 + doing",
+          "insist on 人's doing",
+          "mind 人 + doing(口語)",
+          "mind 人's doing",
+          "of 人's being + pp(受動)",
+          "there being(〜があること)",
+          "worry about 人's doing",
+          "前置詞 + 名詞 + 動名詞"
+        ]
+      },
+      {
+        "medium": "前置詞+動名詞",
+        "smalls": [
+          "be fond of doing",
+          "chance of doing(内容のof)",
+          "in doing(〜する際に)",
+          "on doing(〜するとすぐに)",
+          "be afraid of doing",
+          "be ashamed of(形容詞+前置詞)",
+          "be sure of doing"
+        ]
+      },
+      {
+        "medium": "完了動名詞",
+        "smalls": [
+          "for not having + pp(否定の完了動名詞)",
+          "having + pp(完了動名詞)",
+          "having + 過去分詞(主節より前)",
+          "of not having + pp(否定の完了動名詞)",
+          "remember + having + pp"
+        ]
+      },
+      {
+        "medium": "動名詞の用法",
+        "smalls": [
+          "主語になる動名詞",
+          "動詞の目的語になる動名詞",
+          "be worth doing(〜する価値がある)",
+          "need doing(= need to be done)",
+          "動名詞が主語",
+          "involve doing(動名詞を目的語にとる動詞)"
+        ]
+      },
+      {
+        "medium": "動名詞の受動態",
+        "smalls": [
+          "without being + 過去分詞",
+          "being + pp(受動動名詞)"
+        ]
+      },
+      {
+        "medium": "動名詞の否定",
+        "smalls": [
+          "not doing(否定は動名詞の前に not)",
+          "not being able to do",
+          "意味上の主語+not doing"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "分詞",
+    "mediums": [
+      {
+        "medium": "分詞構文",
+        "smalls": [
+          "there being(there is の分詞構文)",
+          "付帯状況(〜しながら)",
+          "分詞構文の否定(Not + doing)",
+          "受動の分詞構文(compared with)",
+          "受動の分詞構文(感情形容詞)",
+          "受動の分詞構文(過去分詞で始まる)",
+          "否定の分詞構文(Not V-ing)",
+          "完了分詞構文(having + 過去分詞)",
+          "完了形(Having + pp)",
+          "完了形+否定(not having + pp)",
+          "完了形の受動(having been + pp)",
+          "慣用(All things considered)",
+          "慣用(Considering = 〜を考慮すると)",
+          "慣用(Given = 〜を考慮すると)",
+          "慣用(Judging from = 〜から判断すると)",
+          "慣用(Speaking of = 〜と言えば)",
+          "慣用(Talking of = 〜と言えば)",
+          "慣用的分詞構文(All things considered)",
+          "接続詞的分詞(Considering that = since)",
+          "接続詞的分詞(provided = if)",
+          "独立分詞構文(It being ~)",
+          "独立分詞構文(There being ~)",
+          "独立分詞構文(weather permitting)",
+          "独立分詞構文(主語+being)",
+          "独立分詞構文(主語が異なる)",
+          "独立分詞構文(慣用: Other things being equal)",
+          "現在分詞で始まる分詞構文(理由)",
+          "理由・付帯状況(Thinking)",
+          "結果・付帯状況の分詞構文"
+        ]
+      },
+      {
+        "medium": "補語になる分詞(SVOC)",
+        "smalls": [
+          "remain + 現在分詞(〜したままでいる)",
+          "過去分詞(受動「〜されて」)",
+          "be + 過去分詞(状態)",
+          "find + O + 分詞形容詞(exciting/excited)",
+          "find + O + 過去分詞",
+          "have a hard time + V-ing + make oneself understood",
+          "hear + O + 過去分詞",
+          "hear + it + 過去分詞 + that(形式目的語)",
+          "keep + O + V-ing(動詞選択)",
+          "keep + O + 現在分詞",
+          "keep + O + 過去分詞",
+          "look + 過去分詞(感情の状態)",
+          "make oneself heard",
+          "make oneself understood",
+          "remain + 過去分詞",
+          "see + O + 現在分詞",
+          "sit + 過去分詞",
+          "知覚動詞の受動(be seen + V-ing)"
+        ]
+      },
+      {
+        "medium": "限定用法(名詞修飾)",
+        "smalls": [
+          "現在分詞(能動「〜している」)",
+          "過去分詞(受動・完了「〜された」)",
+          "現在分詞(前置修飾)",
+          "現在分詞(後置修飾)",
+          "過去分詞(前置修飾)",
+          "過去分詞(後置修飾)",
+          "過去分詞(後置修飾、疑問文)"
+        ]
+      },
+      {
+        "medium": "付帯状況のwith",
+        "smalls": [
+          "with + O + 現在分詞(能動)",
+          "with + O + 過去分詞(受動)",
+          "with + 名詞 + 現在分詞(付帯状況)",
+          "with + 名詞 + 過去分詞(付帯状況)"
+        ]
+      },
+      {
+        "medium": "知覚・使役動詞+分詞",
+        "smalls": [
+          "keep + O + 現在分詞(Oに〜させ続ける)",
+          "keep + O + 過去分詞(Oを〜された状態にする)",
+          "make oneself + 過去分詞(受動)",
+          "see/watch O doing(進行中の動作)"
+        ]
+      },
+      {
+        "medium": "主述一致",
+        "smalls": [
+          "分詞句修飾下の主述一致"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "関係詞",
+    "mediums": [
+      {
+        "medium": "関係代名詞",
+        "smalls": [
+          "which(先行詞が物)",
+          "who",
+          "which(他動詞の目的語)",
+          "whom",
+          "whose",
+          "whose(先行詞が物)",
+          "that(he claimed 挿入)",
+          "who(she believes 挿入、主格)",
+          "that(人と物が混在する先行詞)",
+          "the degree to which(〜する程度)",
+          "主格 that",
+          "主格 which(物)",
+          "主格 who(人)",
+          "主格 who(挿入節 I think/believe/etc.)",
+          "主格 who(挿入節)",
+          "前置詞 + 関係代名詞(about which)",
+          "前置詞 + 関係代名詞(for which)",
+          "前置詞 + 関係代名詞(from which)",
+          "前置詞 + 関係代名詞(from whom)",
+          "前置詞 + 関係代名詞(in which)",
+          "前置詞 + 関係代名詞(of which = whose)",
+          "前置詞 + 関係代名詞(to which)",
+          "前置詞 + 関係代名詞(with which)",
+          "前置詞 + 関係代名詞(without which)",
+          "所有格 whose",
+          "所有格 whose + 名詞",
+          "所有格 whose(人)",
+          "所有格 whose(物)",
+          "挿入節 + 動詞(you think + V)",
+          "目的格 that",
+          "目的格 that(the very などの先行詞)",
+          "目的格 which",
+          "目的格の省略",
+          "目的格の省略 + 前置詞残し",
+          "修飾句下での主述一致",
+          "関係詞節下の主述一致"
+        ]
+      },
+      {
+        "medium": "関係副詞",
+        "smalls": [
+          "how(方法、the way の代用)",
+          "on which(= when)",
+          "the way/manner + in which(=how)",
+          "when(時)",
+          "where(場所)",
+          "where(抽象的な場面)",
+          "where(状況・場合)",
+          "why(理由)"
+        ]
+      },
+      {
+        "medium": "関係代名詞 what",
+        "smalls": [
+          "what + 名詞 + S can(できる限りの〜)",
+          "what S used to be(かつての姿)",
+          "what S used to be(以前の状態)",
+          "what S was(以前の状態)",
+          "what S was/used to be(以前の状態)",
+          "what is called(いわゆる)",
+          "what is more(さらに)",
+          "what is worse(さらに悪いことに)",
+          "what you call(いわゆる)",
+          "what(〜こと/もの)",
+          "what(主語の名詞節)",
+          "what(先行詞を含む、主語)",
+          "what(前置詞の目的語)",
+          "what(目的語の名詞節)"
+        ]
+      },
+      {
+        "medium": "非制限用法",
+        "smalls": [
+          "where(非制限の関係副詞)",
+          "which(前の文全体を先行詞に)",
+          "who(コンマ + 主格)",
+          "関係代名詞 which(前文の動作を受ける)",
+          "関係代名詞 which(前文を受ける)",
+          "関係代名詞 which(挿入節)",
+          "関係代名詞 which(非制限)",
+          "関係代名詞 which(非制限・目的格)",
+          "関係代名詞 which(非制限・複数)",
+          "関係代名詞 who(非制限)",
+          "関係代名詞 whose(非制限)",
+          "関係副詞 where(非制限)"
+        ]
+      },
+      {
+        "medium": "複合関係副詞",
+        "smalls": [
+          "however + 副詞(どんなに〜でも)",
+          "however + 形容詞(どんなに〜でも)",
+          "however + 形容詞・副詞(どんなに〜でも)",
+          "however(どんなふうに〜しても)",
+          "wherever(どこで〜しても)",
+          "wherever(どこへ〜しても)"
+        ]
+      },
+      {
+        "medium": "複合関係代名詞",
+        "smalls": [
+          "whoever(= anyone who, 節内で主語)",
+          "whoever(=anyone who)",
+          "whoever(主節の主語)",
+          "whoever(文頭で主節の主語)",
+          "whichever + 名詞(〜するどれでも)"
+        ]
+      },
+      {
+        "medium": "no matter",
+        "smalls": [
+          "no matter how + 形容詞 + S + V",
+          "no matter how(どれほど〜しても)",
+          "no matter how(どれほど〜であろうとも)",
+          "no matter where(どこに〜しても)"
+        ]
+      },
+      {
+        "medium": "擬似関係代名詞 as",
+        "smalls": [
+          "As is often the case(よくあることだが)",
+          "As is often the case with(〜にはよくあることだが)"
+        ]
+      },
+      {
+        "medium": "前置詞+関係代名詞",
+        "smalls": [
+          "refer to + in(目的格省略)",
+          "pay attention to → to which",
+          "前置詞 + which"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "比較",
+    "mediums": [
+      {
+        "medium": "比較の慣用",
+        "smalls": [
+          "as ... as one can",
+          "as ... as possible(できるだけ)",
+          "as many as + 数(〜もの数)",
+          "not so much A as B",
+          "know better than to do(〜するほど愚かでない)",
+          "much less(まして〜ない)",
+          "no longer(もはや〜ない)",
+          "rather than(〜よりむしろ)",
+          "the 最上級 ... S have ever 過去分詞",
+          "do more harm than good(百害あって一利なし)",
+          "know better than to do",
+          "less A than B(AよりむしろB)",
+          "no fewer than(〜もの多くの)",
+          "no later than(遅くとも〜までに)",
+          "no less than(〜もの多くの)",
+          "no more A than B(クジラの構文)",
+          "no more than(たった〜)",
+          "no 比較級 than(原級的意味)",
+          "not any longer(もはや〜ない)",
+          "not so much A as B(AよりむしろB)",
+          "still less(まして〜ない)",
+          "no + 比較級 + than(差がない)",
+          "A is no more B than C is",
+          "no less than(〜もの多さ)",
+          "no more than(たった〜、only)",
+          "one of + 複数名詞 + 単数動詞"
+        ]
+      },
+      {
+        "medium": "原級比較",
+        "smalls": [
+          "as ... as(同等比較)",
+          "as many as 数字(数の強調)",
+          "as much as(同じくらい多く)",
+          "as ~ as any(原級+最上級的意味)",
+          "as ~ as anybody(原級+最上級的意味)",
+          "as ~ as ever lived(最上級的意味)",
+          "as ~ as one can(できる限り〜)",
+          "in as many ~(同数の)",
+          "not as ... as(〜ほど…ない)",
+          "not as much ~ as",
+          "not as ~ as",
+          "not as ~ as + 節",
+          "not so ~ as",
+          "倍数 + as many ~ as",
+          "倍数 + as much as",
+          "倍数 + as much ~ as",
+          "倍数 + as ~ as",
+          "倍数 + as ~ as + 名詞",
+          "分数 + as ~ as",
+          "Nothing is as ... as ~"
+        ]
+      },
+      {
+        "medium": "比較級",
+        "smalls": [
+          "The 比較級 ~, the 比較級 ~",
+          "less + 形容詞 + than(劣勢比較)",
+          "the 比較級 + of the two",
+          "否定+比較級+than(最上級的意味)",
+          "比較の対象(than + 名詞)",
+          "比較級 + than",
+          "比較級 + than(more + 原級)",
+          "比較級+than any other(最上級的意味)",
+          "less + 原級(より〜でない)"
+        ]
+      },
+      {
+        "medium": "最上級",
+        "smalls": [
+          "Of + 複数(〜の中で)",
+          "Nothing is 比較級 than(最上級的意味)",
+          "one of the + 最上級 + 複数名詞",
+          "one of the 最上級 + 複数名詞",
+          "the least + 原級(最も〜でない)",
+          "the least + 形容詞(最も〜でない)",
+          "the 序数 + 最上級",
+          "the 最上級 + of all",
+          "the 最上級 + that S have ever V(経験の最上級)",
+          "否定+比較級+than(最上級的意味)",
+          "序数 + 最上級(〜番目に…)",
+          "比較級 + than any other + 単数名詞"
+        ]
+      },
+      {
+        "medium": "ラテン比較級",
+        "smalls": [
+          "junior to",
+          "prefer A to B",
+          "prefer A to B(BよりAを好む)",
+          "senior to",
+          "superior to",
+          "superior to(〜より優れている)"
+        ]
+      },
+      {
+        "medium": "比較級の強調",
+        "smalls": [
+          "all the 比較級 for(理由)",
+          "all the 比較級(理由を受けて)",
+          "much + 比較級",
+          "much less(はるかに〜でない)"
+        ]
+      },
+      {
+        "medium": "the 比較級",
+        "smalls": [
+          "The 比較級 ..., the 比較級 ...",
+          "the + 比較級 + of the two",
+          "all the + 比較級(その分いっそう)",
+          "none the + 比較級(〜してもよくならない)"
+        ]
+      },
+      {
+        "medium": "最上級の強調",
+        "smalls": [
+          "by far + the 最上級",
+          "by far the + 最上級"
+        ]
+      },
+      {
+        "medium": "倍数表現",
+        "smalls": [
+          "X times as ... as",
+          "half the + 名詞 + of",
+          "twice as many + 名詞 + as"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "仮定法",
+    "mediums": [
+      {
+        "medium": "if節の代用(without/but for)",
+        "smalls": [
+          "But for ~(〜がなければ)",
+          "Without ~(〜がなければ)",
+          "otherwise(さもなければ)",
+          "But for ~(= without)",
+          "Without ~ + 仮定法過去完了(受動)",
+          "Without ~(= if it had not been for)",
+          "Without ~(= if it were not for)",
+          "without ~ + 仮定法過去完了",
+          "without ~(= if it had not been for)",
+          "otherwise + 仮定法過去完了",
+          "With ~(もし〜があれば)"
+        ]
+      },
+      {
+        "medium": "仮定法過去完了",
+        "smalls": [
+          "If S had been V-ing, S might have+pp",
+          "If S had been ~, S would have+pp",
+          "If S had+pp(疑問文)",
+          "If S had+pp, S could have+pp",
+          "If S had+pp, S could/would have+pp",
+          "If S had+pp, S would have+pp",
+          "S could have+pp(過去の仮定)",
+          "S would have+pp(副詞の位置)",
+          "S would have+pp(過去の仮定)",
+          "if S had been able to do",
+          "if節 had + 過去分詞",
+          "主節 would have + 過去分詞"
+        ]
+      },
+      {
+        "medium": "倒置",
+        "smalls": [
+          "Had + S + 過去分詞(if の省略)",
+          "Had it not been for ~(if の省略)",
+          "Should + S(if の省略、万一)",
+          "Had S been able to do(if 省略の倒置)",
+          "Had S+pp(if 省略の倒置)",
+          "Had it not been for(if 省略の倒置)",
+          "Should S V(仮定法未来の倒置)",
+          "Should S happen to(if 省略の倒置)",
+          "Should there be(if 省略の倒置)",
+          "Should you have(if 省略の倒置)",
+          "Were S to do(仮定法未来の倒置)",
+          "Were S ~(if 省略の倒置)"
+        ]
+      },
+      {
+        "medium": "仮定法過去",
+        "smalls": [
+          "If I were able to do",
+          "If S knew, S would V",
+          "If S were ...(be動詞は were)",
+          "If S were ~",
+          "If S were, S would V",
+          "If S were/V-ed, S would V",
+          "S would V if S had ~",
+          "主節 would + 原形",
+          "含意のある仮定法(would not V)",
+          "時制の一致を受けない仮定法"
+        ]
+      },
+      {
+        "medium": "as if/as though",
+        "smalls": [
+          "as if + 過去完了(それ以前の事実に反する)",
+          "sound/look/seem + as if",
+          "as if + would V(時制の一致)",
+          "as if + 仮定法過去",
+          "as if + 仮定法過去完了",
+          "as though + 仮定法過去(= as if)"
+        ]
+      },
+      {
+        "medium": "I wish",
+        "smalls": [
+          "I wish + 仮定法(〜ならいいのに)",
+          "I wish + 過去完了(〜だったらよかったのに)",
+          "I wish + 仮定法過去(現在の願望)",
+          "I wish + 仮定法過去完了(過去への悔やみ)",
+          "I wish の動詞選択"
+        ]
+      },
+      {
+        "medium": "仮定法未来",
+        "smalls": [
+          "If S should do(万一〜なら)",
+          "If S were to do(仮に〜するなら)",
+          "if S should V(万一〜したら)",
+          "if S were to be done",
+          "if S were to be done(万一〜されたら)",
+          "if S were to do(万一〜なら)"
+        ]
+      },
+      {
+        "medium": "if it were/had not been for",
+        "smalls": [
+          "If it were not for ~(〜がなければ:現在)",
+          "if it were not for + 名詞",
+          "if it were not for ~(現在の事実に反する)",
+          "if it were not for(主語 it + were)",
+          "if it were not for(主語 it)",
+          "if it had not been for + 主節の仮定法過去完了",
+          "if it had not been for ~(過去の事実に反する)"
+        ]
+      },
+      {
+        "medium": "If only",
+        "smalls": [
+          "If only + 仮定法(〜さえすればなあ)",
+          "If only + would V(将来の意思への願望)",
+          "If only + 仮定法過去(現在の願望)",
+          "If only + 仮定法過去完了(過去への悔やみ)"
+        ]
+      },
+      {
+        "medium": "It's (high/about) time",
+        "smalls": [
+          "It is (high) time + S + 過去形",
+          "It's about time + S + V-ed",
+          "It's high time + S + V-ed",
+          "It's time + S + V-ed"
+        ]
+      },
+      {
+        "medium": "混合仮定法",
+        "smalls": [
+          "If S had+pp ~, S would V",
+          "If S had+pp ~, S would V(過去の仮定+現在の結果)",
+          "if節=過去完了, 主節=現在"
+        ]
+      },
+      {
+        "medium": "I'd rather",
+        "smalls": [
+          "would rather + S + 過去形(人に〜してほしい)",
+          "I'd rather + S + V-ed",
+          "I'd rather + S + V-ed(現在・未来の願望)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "否定・省略・強調",
+    "mediums": [
+      {
+        "medium": "慣用",
+        "smalls": [
+          "Not at all(とんでもない)",
+          "all but(〜以外はみな)",
+          "anything but(決して〜でない)",
+          "far from(決して〜でない)",
+          "have yet to do(まだ〜していない)",
+          "nothing but(〜にすぎない、〜だけ)",
+          "few ..., if any(もしあってもわずか)",
+          "if not(〜とは言わないまでも)",
+          "little, if anything(あってもほとんどない)",
+          "seldom/rarely ..., if ever(あってもまれ)",
+          "Not at all(許可の返答)",
+          "What if ~?(もし〜したら?)",
+          "all but(〜を除いてほとんど)",
+          "anything but(決して〜ない)",
+          "cannot ~ without doing(必ず〜する)",
+          "far from(決して〜ない)",
+          "free from(〜のない)",
+          "have yet to do(受動)",
+          "if any(あるとしても)",
+          "if ever(あるとしても)",
+          "if not(〜とまではいかなくても)",
+          "never ~ without doing(必ず〜する)",
+          "nothing but(〜だけ=only)",
+          "out of date(時代遅れの)",
+          "remain to be done",
+          "remain to be done(まだ〜されていない)"
+        ]
+      },
+      {
+        "medium": "強調",
+        "smalls": [
+          "What if ...?(〜したらどうか)",
+          "It is + 場所句 + that",
+          "It is not until ~ that(〜して初めて)",
+          "It is ~ that(主語の強調)",
+          "It is ~ that(強調構文)",
+          "It is ~ that(強調構文・場所)",
+          "It is ~ that(強調構文・時)",
+          "It is ~ that(目的語の強調)",
+          "What is it ~ that ...?(疑問詞の強調)",
+          "疑問詞の強調(Wh + was it + that)",
+          "It is not until A that B(Aして初めてB)",
+          "It is ~ that ...(主語を強調)",
+          "疑問詞 + was it that ...(疑問詞の強調)"
+        ]
+      },
+      {
+        "medium": "全部否定",
+        "smalls": [
+          "cannot ... without doing(〜すれば必ず…する)",
+          "by no means(決して〜ない)",
+          "not in the least(少しも〜ない)",
+          "not ~ at all(全く〜ない)"
+        ]
+      },
+      {
+        "medium": "否定",
+        "smalls": [
+          "not ... any(少しも〜ない)",
+          "free from(〜がない)",
+          "the last person to/that(最も〜しそうにない)",
+          "not + any(全く〜ない)",
+          "the last person to do(最も〜しそうにない)"
+        ]
+      },
+      {
+        "medium": "副詞節中の省略",
+        "smalls": [
+          "When (it is) trained(主語+be の省略)",
+          "unless + 過去分詞(主語+be の省略)",
+          "when + V-ing(主語+be の省略)",
+          "while + V-ing",
+          "while + V-ing(主語+be の省略)",
+          "while + 形容詞(主語+be の省略)",
+          "while/when + V-ing(主語+be の省略)"
+        ]
+      },
+      {
+        "medium": "部分否定",
+        "smalls": [
+          "Not all(全てが〜とは限らない)",
+          "not all(すべてが〜とは限らない)",
+          "not necessarily(必ずしも〜とは限らない)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "疑問文と語順",
+    "mediums": [
+      {
+        "medium": "疑問詞",
+        "smalls": [
+          "How come(なぜ)",
+          "How far(どれくらいの距離)",
+          "How often(どれくらいの頻度)",
+          "How soon(あとどれくらいで)",
+          "What ... like?(どんな様子か)",
+          "What do you think of?(意見を尋ねる)",
+          "What is S like?(どんなものか)",
+          "What is S like?(どんな人/もの?)",
+          "What is S like?(どんな人/物か)",
+          "What is the 名詞(数値を尋ねる)",
+          "What ~ for?(目的を尋ねる)",
+          "what S be like(間接疑問)"
+        ]
+      },
+      {
+        "medium": "付加疑問",
+        "smalls": [
+          "Let's + shall we?",
+          "There is/are + isn't/aren't there",
+          "be 動詞肯定 + isn't",
+          "used to + didn't",
+          "will + 動詞 + won't",
+          "will+won't",
+          "一般動詞肯定+don't/doesn't",
+          "主語 You and I → we",
+          "単数主語の代名詞化",
+          "否定の There seems + does there?",
+          "否定の現在完了 + has",
+          "命令文 + will you?",
+          "命令文 + won't you?(丁寧な依頼)",
+          "準否定語(rarely)+ 肯定の付加疑問",
+          "現在完了肯定 + hasn't",
+          "現在完了肯定 + haven't",
+          "現在完了肯定+hasn't"
+        ]
+      },
+      {
+        "medium": "倒置",
+        "smalls": [
+          "Never + 倒置(have I + 過去分詞)",
+          "Not once + 倒置",
+          "Only + 副詞句 + 倒置",
+          "Hardly + had S + pp(when ~)",
+          "Little + did S V(ほとんど〜なかった)",
+          "Never + had S+pp(過去完了の倒置)",
+          "Not a word + 助動詞 + S",
+          "Not once + 助動詞 + S",
+          "Not until + 時 + were/be S done(受動)",
+          "Not until + 節 + 助動詞 + S",
+          "Only when + 節 + did S V",
+          "nor + 助動詞 + S",
+          "nor + 助動詞 + S + V",
+          "否定副詞句+助動詞+S(Never など)"
+        ]
+      },
+      {
+        "medium": "同意",
+        "smalls": [
+          "neither + 助動詞 + S(否定への同意)",
+          "nor + 助動詞 + S(否定への同意、一般動詞)",
+          "so + 助動詞 + S(〜もそうだ:肯定)",
+          "So + be 動詞 + S(進行形)",
+          "So + 助動詞 + S(私も)",
+          "so + be 動詞 + S(進行形)",
+          "so + 助動詞 + S(別の主語も)",
+          "Neither + 助動詞 + S",
+          "Neither + 助動詞 + S(can)",
+          "Neither + 助動詞 + S(現在完了)",
+          "neither + 助動詞 + S",
+          "neither + 助動詞 + S(私も〜ない)",
+          "so + S + V(おっしゃる通り)"
+        ]
+      },
+      {
+        "medium": "間接疑問・挿入疑問",
+        "smalls": [
+          "What do you think + V(think型は疑問詞を文頭に)",
+          "疑問詞 + S + V(平叙文の語順)",
+          "how + S + V(平叙文の語順)",
+          "what S be like(どんなものか)",
+          "when + S + V(平叙文の語順)",
+          "who + S + V(平叙文の語順)",
+          "疑問詞 + S + V(名詞節)",
+          "Wh + did you think + V(過去)",
+          "Wh + do you think + V(Wh型)",
+          "Wh + does S believe + 平叙文(挿入)"
+        ]
+      },
+      {
+        "medium": "慣用",
+        "smalls": [
+          "How come + S + V(どうして〜)",
+          "How should I know?(知るわけがない)",
+          "What about doing?(〜するのはどうか)",
+          "What is the use of doing?(〜して何になるのか)",
+          "So + S + V(確かに〜だ:確認)",
+          "How about doing?(提案)",
+          "What has become of?(どうなった)",
+          "What's the use of doing(〜しても無駄)"
+        ]
+      },
+      {
+        "medium": "語順",
+        "smalls": [
+          "as + 形容詞 + a + 名詞",
+          "too + 形容詞 + a + 名詞",
+          "too + 形容詞 + a/an + 名詞"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "接続詞",
+    "mediums": [
+      {
+        "medium": "副詞節",
+        "smalls": [
+          "By the time(〜する頃までに)",
+          "Every time(〜するたびに)",
+          "It was not long before(まもなく〜した)",
+          "It wasn't long before(まもなく〜した)",
+          "It will be 期間 before(〜するまで〜の時間)",
+          "It won't be long before(まもなく〜だろう)",
+          "Once(いったん〜したら)",
+          "The first time(初めて〜したとき)",
+          "The moment(〜した瞬間に)",
+          "Unless(〜でない限り)",
+          "Until ~ , won't(〜するまで…できない)",
+          "by the time(〜する時までに)",
+          "every time(〜するたびに)",
+          "had hardly + 過去分詞 + when",
+          "had hardly ~ when(〜するやいなや)",
+          "in that(〜という点で)",
+          "no sooner ~ than(〜するやいなや)",
+          "once(いったん〜したら)",
+          "since(〜以来)",
+          "unless(〜でない限り)",
+          "until(〜まで)",
+          "when(〜のとき)"
+        ]
+      },
+      {
+        "medium": "譲歩",
+        "smalls": [
+          "although(〜だけれども、後ろは節)",
+          "even if(たとえ〜でも、仮定の譲歩)",
+          "even though(〜にもかかわらず、後ろは節)",
+          "形容詞 + as + S + V(〜だけれども)",
+          "Although(〜だけれども)",
+          "Even if(たとえ〜でも)",
+          "Even though(〜にもかかわらず)",
+          "While(〜だけれども)",
+          "even if(たとえ〜でも)",
+          "even though(〜にもかかわらず)",
+          "形容詞 + as + S + V(倒置)"
+        ]
+      },
+      {
+        "medium": "条件",
+        "smalls": [
+          "in case(〜するといけないので)",
+          "once(いったん〜すれば)",
+          "suppose (that)(もし〜なら)",
+          "unless(〜でない限り)",
+          "Supposing(もし〜なら)",
+          "as long as(〜さえすれば)",
+          "in case(〜に備えて)",
+          "provided(=if)",
+          "so long as(=as long as)",
+          "会話の応答(条件付きの依頼)"
+        ]
+      },
+      {
+        "medium": "相関接続詞",
+        "smalls": [
+          "Both A and B + 複数動詞",
+          "Both A and B(同じ品詞・形)",
+          "Either A or B + B に一致",
+          "Either A or B(主語の位置)",
+          "Neither A nor B + B に一致",
+          "both A and B(両方)",
+          "both A and B(同じ品詞を並べる)",
+          "either A or B",
+          "either A or B + B に一致",
+          "either A or B(A または B)",
+          "neither A nor B",
+          "neither A nor B(A も B も〜ない)",
+          "not A but B(A ではなく B)",
+          "not A but B(parallel な名詞節)"
+        ]
+      },
+      {
+        "medium": "時を表す接続詞",
+        "smalls": [
+          "It won't be long before ...(まもなく〜する)",
+          "after(〜した後で)",
+          "as soon as(〜するとすぐに)",
+          "by the time(〜するまでには)",
+          "every time(〜するたびに)",
+          "not ... until(〜するまで…しない)",
+          "since(〜以来)",
+          "the moment(〜した瞬間に)",
+          "until(〜するまで(ずっと))",
+          "when(〜するとき/したら)",
+          "while(〜している間)",
+          "No sooner ... than(〜するやいなや)",
+          "While(〜している間に)",
+          "while(〜している間に)",
+          "while(〜する間)"
+        ]
+      },
+      {
+        "medium": "名詞節",
+        "smalls": [
+          "if(〜かどうか)",
+          "同格の that(the fact that ...)",
+          "That(〜ということ・主語)",
+          "Whether ~ or not(名詞節・主語) + 主節動詞",
+          "Whether(〜かどうか・主語)",
+          "if(間接疑問・目的語)",
+          "whether ~ or not",
+          "whether(〜かどうか・形容詞の目的語)",
+          "whether(〜かどうか・目的語)",
+          "It is necessary for + 人 + to do"
+        ]
+      },
+      {
+        "medium": "結果・程度",
+        "smalls": [
+          "so + 形容詞/名詞 + that(とても〜なので)",
+          "such a + 形容詞 + 名詞 + that",
+          "in so + 形容詞 + a + 名詞 + that",
+          "so + 副詞 + that",
+          "so + 形容詞 + a + 名詞 + that",
+          "so + 形容詞 + that",
+          "so ~ that S couldn't V",
+          "such + a + 形容詞 + 名詞",
+          "such + a + 形容詞 + 名詞 + that"
+        ]
+      },
+      {
+        "medium": "命令文+接続詞",
+        "smalls": [
+          "命令文, and ...(〜すれば…)",
+          "命令文, and(そうすれば)",
+          "命令文, or(さもなければ)"
+        ]
+      },
+      {
+        "medium": "目的",
+        "smalls": [
+          "in order that S may/can(〜するように)",
+          "so that S can/could(〜できるように)",
+          "so that(〜できるように)",
+          "so(= so that、〜できるように)"
+        ]
+      },
+      {
+        "medium": "理由",
+        "smalls": [
+          "now (that)(今や〜だから)",
+          "Now that(〜なので)",
+          "as(〜なので)",
+          "now that(〜なので)"
+        ]
+      },
+      {
+        "medium": "同格",
+        "smalls": [
+          "同格 that(〜という)"
+        ]
+      },
+      {
+        "medium": "等位接続詞",
+        "smalls": [
+          "and による並列(同じ形をそろえる)",
+          "but(前置きの but)",
+          "but(逆接)",
+          "yet(しかし:逆接)",
+          "yet(まだ・否定/疑問文)"
+        ]
+      },
+      {
+        "medium": "範囲",
+        "smalls": [
+          "as far as ~ is concerned(〜に関する限り)",
+          "as far as(〜する限り)",
+          "as far as(〜まで/〜の限り)"
+        ]
+      },
+      {
+        "medium": "倒置",
+        "smalls": [
+          "Hardly + had + S + pp(倒置)",
+          "No sooner had + S + pp + than(倒置)"
+        ]
+      },
+      {
+        "medium": "比例",
+        "smalls": [
+          "as(〜するにつれて)",
+          "as(〜につれて)"
+        ]
+      },
+      {
+        "medium": "対比",
+        "smalls": [
+          "whereas(〜である一方)",
+          "whereas(〜である一方で)",
+          "whereas(一方)"
+        ]
+      },
+      {
+        "medium": "慣用表現",
+        "smalls": [
+          "in that(〜という点で)",
+          "as far as S be concerned(〜に関する限り)",
+          "as long as(〜する限り:条件)"
+        ]
+      },
+      {
+        "medium": "様態",
+        "smalls": [
+          "A is to B as C is to D(類比)",
+          "as(〜のように)",
+          "as(〜のように/〜の通りに)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "前置詞",
+    "mediums": [
+      {
+        "medium": "時",
+        "smalls": [
+          "by(〜までに:期限)",
+          "during + 名詞(〜の間)",
+          "for + 期間の長さ",
+          "in(今から〜後に)",
+          "on(曜日)",
+          "on(特定の日の朝/午後)",
+          "till/until(〜までずっと:継続)",
+          "within(〜以内に)",
+          "during(〜の間)",
+          "during(〜の間ずっと)",
+          "during(特定の期間)",
+          "during(特定の期間中)",
+          "on(日付)",
+          "on(曜日の夜)",
+          "on(曜日の朝)",
+          "on(特定の日の夜)",
+          "till(〜まで続ける)",
+          "in(for the first time in 〜)"
+        ]
+      },
+      {
+        "medium": "場所",
+        "smalls": [
+          "among(3者以上の間)",
+          "at(地点)",
+          "between(2つの間)",
+          "in(水の中で)",
+          "on(川・道に面して)",
+          "to the north/south of(離れて〜の方角に)",
+          "below(〜より下に)",
+          "like(〜のような)",
+          "at(地点としての角)",
+          "at(店舗)",
+          "on(川沿いに)",
+          "in the direction of",
+          "in the direction of(〜の方向に)",
+          "above(〜の上に)",
+          "between(2物の間)"
+        ]
+      },
+      {
+        "medium": "範囲",
+        "smalls": [
+          "among(3つ以上の中で)",
+          "among(〜の中の一人)",
+          "between(2つの間で)",
+          "between(2人の間)",
+          "beyond one's means(分不相応)",
+          "beyond(〜を超えて)",
+          "beyond(手に負えない)",
+          "beyond(能力を超えて)",
+          "beyond(自分の理解を超える)",
+          "beyond(言葉では表せない)",
+          "beyond(言葉で表せない)",
+          "under(〜未満)"
+        ]
+      },
+      {
+        "medium": "対比",
+        "smalls": [
+          "for(賛成して)⇔ against(反対して)",
+          "against one's will(意志に反して)",
+          "against the law(法律違反)",
+          "against the law(違法)",
+          "against(反対して)",
+          "for or against(賛否)",
+          "for(〜の割には)",
+          "for(賛成して)"
+        ]
+      },
+      {
+        "medium": "性質",
+        "smalls": [
+          "beyond(〜できないほど)",
+          "for(〜の割には)",
+          "over(〜しながら)",
+          "write with(道具の with)",
+          "of no use(= useless)",
+          "advice on(〜についての助言)",
+          "of(性質を表す)",
+          "of+抽象名詞"
+        ]
+      },
+      {
+        "medium": "時(期間)",
+        "smalls": [
+          "for(〜の間は…ない)",
+          "for(期間の長さ)",
+          "for(過去〜間)",
+          "within(〜以内に)"
+        ]
+      },
+      {
+        "medium": "時(期限)",
+        "smalls": [
+          "till(〜まで続く)",
+          "by(〜までに)",
+          "by(〜までには)",
+          "by(〜までには戻る)",
+          "by(〜までに完了)"
+        ]
+      },
+      {
+        "medium": "様態・付帯状況",
+        "smalls": [
+          "with + 感情(〜をもって)",
+          "with + 名詞 + 状態(〜したまま)",
+          "like(〜のような)",
+          "like(〜のように)",
+          "with care(慎重に)",
+          "with ease(容易に)",
+          "with+抽象名詞=副詞",
+          "with+O+〜"
+        ]
+      },
+      {
+        "medium": "身体部位",
+        "smalls": [
+          "動詞 + 人 + by the + 部位",
+          "by the+身体部位",
+          "in the face(顔を)"
+        ]
+      },
+      {
+        "medium": "手段",
+        "smalls": [
+          "by + 無冠詞(手段)",
+          "in + 乗り物(特定の車など)",
+          "on the phone(電話で)",
+          "over(〜しながら)",
+          "by(交通手段)",
+          "on(電話で)",
+          "with(道具・前置詞の残留)"
+        ]
+      },
+      {
+        "medium": "数量・差",
+        "smalls": [
+          "under(〜未満)",
+          "by(差・程度)",
+          "by(差)",
+          "by(差を表す)",
+          "by(年齢差)",
+          "by(増減幅)"
+        ]
+      },
+      {
+        "medium": "譲歩",
+        "smalls": [
+          "despite + 名詞(〜にもかかわらず)",
+          "Despite the fact that",
+          "Despite(〜にもかかわらず)"
+        ]
+      },
+      {
+        "medium": "単位",
+        "smalls": [
+          "by the + 単位(〜単位で)",
+          "by the hour(時間単位)",
+          "by the+単位"
+        ]
+      },
+      {
+        "medium": "時(経過)",
+        "smalls": [
+          "in(〜後に)"
+        ]
+      },
+      {
+        "medium": "着用",
+        "smalls": [
+          "in(〜を身につけて)",
+          "be dressed in(〜を着ている)",
+          "in(服を着て)"
+        ]
+      },
+      {
+        "medium": "従事",
+        "smalls": [
+          "over(〜しながら)",
+          "over(食事しながら)",
+          "over(飲食しながら)"
+        ]
+      },
+      {
+        "medium": "除外",
+        "smalls": [
+          "except(〜を除いて)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "代名詞",
+    "mediums": [
+      {
+        "medium": "neither/either",
+        "smalls": [
+          "Neither of + 2人(両方とも〜ない)",
+          "Neither(2つのうちどちらも〜ない)",
+          "neither of(2つのうちどちらも〜ない)",
+          "neither of(2人のうちどちらも〜ない)",
+          "not either of(2つのうちどちらも〜ない)",
+          "not either of(2人のうちどちらも〜ない)",
+          "not either(=neither)",
+          "none of them(3つ以上のいずれも〜ない)",
+          "none of(3人以上のいずれも〜ない)",
+          "none of(全部否定)",
+          "Both + 複数名詞 + 複数動詞",
+          "Either of + 単数動詞(2人のうちのどちらか)",
+          "Either(2つのうちのどちらでも)",
+          "both of(2人とも)",
+          "either side(両側)",
+          "none(残っているものがない)"
+        ]
+      },
+      {
+        "medium": "one ~ the other",
+        "smalls": [
+          "2つの「一方」と「もう一方」",
+          "tell one from the other(2つを区別)",
+          "the other + 名詞(もう一方の〜)",
+          "一つ + 残り全て(3つ以上)",
+          "一人 + 残り全員(3人以上)",
+          "一部 + 残り全て(複数)",
+          "一部 + 残り全部(3つ以上)",
+          "one thing は別物",
+          "一部 + 不特定の他",
+          "one after another(次々と)"
+        ]
+      },
+      {
+        "medium": "most/almost",
+        "smalls": [
+          "Most + 名詞(大半の〜:一般論)",
+          "almost all the + 複数名詞",
+          "almost all(ほとんどすべての)",
+          "most of the + 複数名詞",
+          "Almost + all the(ほぼすべて)",
+          "Most(一般名詞、限定なし)",
+          "almost all (the)",
+          "almost all the(限定名詞)",
+          "most of the",
+          "most of the(限定名詞)",
+          "most of(限定された名詞)",
+          "most of(限定名詞)",
+          "most(一般名詞、限定なし)"
+        ]
+      },
+      {
+        "medium": "不定代名詞",
+        "smalls": [
+          "A is one thing, B is another",
+          "Any + 単数名詞(どんな〜でも)",
+          "None of + 複数名詞",
+          "another + 単数名詞(もう一つの)",
+          "another + 数詞 + 複数(さらに〜)",
+          "anything(肯定文の「何でも」)",
+          "both of us(2者の両方)",
+          "each of + 複数(単数扱い)",
+          "either + 単数名詞(どちらの〜も)",
+          "every + 単数名詞(あらゆる〜)",
+          "every + 数詞 + 複数名詞(〜ごとに)",
+          "every other day(1日おきに)",
+          "neither(2者のどちらも〜ない)",
+          "none of(3者以上のどれも〜ない)",
+          "not ... either(否定文の either)",
+          "one ... the other(2つのうち一方と他方)",
+          "one ... the others(1つと残り全部)",
+          "one after another(次々に)",
+          "some ... others(一部と他の一部)"
+        ]
+      },
+      {
+        "medium": "再帰代名詞",
+        "smalls": [
+          "Help yourself to(自由にどうぞ)",
+          "beside oneself(われを忘れて)",
+          "by oneself(=alone)",
+          "by oneself(独りで)",
+          "consider oneself(主語と目的語が同じ)",
+          "enjoy oneself(楽しむ)",
+          "keep ~ to oneself(胸の内にしまう)",
+          "主語と目的語が同じ(yourself)",
+          "動詞の目的語になる再帰代名詞",
+          "強調用法 itself(それ自体)",
+          "beside oneself(我を忘れて)",
+          "by oneself(ひとりで/独力で)",
+          "have ... to oneself(〜を独り占めする)",
+          "help oneself to(自由に取って食べる)"
+        ]
+      },
+      {
+        "medium": "one",
+        "smalls": [
+          "a new one(形容詞 + one)",
+          "one(a + 単数名詞の代用)",
+          "the one(関係詞節で限定)",
+          "the ones(複数の限定)",
+          "a/an + 形容詞 + one",
+          "one(同種別物・不特定)",
+          "ones(複数)",
+          "the + 形容詞 + ones",
+          "the one + 関係詞節(特定)",
+          "the ones(特定の同種別物・複数)",
+          "形容詞 + ones"
+        ]
+      },
+      {
+        "medium": "that/those",
+        "smalls": [
+          "that of ~(単数名詞の反復回避)",
+          "those + 分詞(〜する人々)",
+          "those of ~(複数名詞の反復回避)",
+          "that(不可算名詞の繰り返し)",
+          "that(特定の名詞の繰り返し・不可算)",
+          "that(特定の名詞の繰り返し・単数)",
+          "those(複数の名詞の繰り返し)"
+        ]
+      },
+      {
+        "medium": "each/every",
+        "smalls": [
+          "Each of(それぞれ)",
+          "Every + 単数名詞 + 単数動詞",
+          "each of(それぞれ)",
+          "every + 数詞 + 複数名詞",
+          "every other day(1日おきに)",
+          "every other 〜(〜おきに)"
+        ]
+      },
+      {
+        "medium": "慣用",
+        "smalls": [
+          "have much to do with(〜と大いに関係がある)",
+          "have nothing to do with(〜と関係がない)",
+          "something the matter with(〜の具合が悪い)",
+          "for nothing(= free of charge:無料で)",
+          "There is something wrong with",
+          "for nothing(対価なしに)",
+          "for nothing(無料で)",
+          "have nothing to do with(全く関係ない)",
+          "have nothing to do with(関係ない)",
+          "have something to do with(関係がある)"
+        ]
+      },
+      {
+        "medium": "所有代名詞・二重所有格",
+        "smalls": [
+          "one of mine(of + 所有代名詞)",
+          "yours(あなたのもの)",
+          "a/an + 名詞 + of + 所有代名詞",
+          "a/an + 形容詞 + 名詞 + of + 所有代名詞",
+          "these + 名詞 + of + 所有代名詞",
+          "these/those + 名詞 + of + 所有代名詞",
+          "this + 形容詞 + 名詞 + of + 所有代名詞",
+          "this/that + 名詞 + of + 所有代名詞"
+        ]
+      },
+      {
+        "medium": "応答・代用",
+        "smalls": [
+          "I guess so(たぶんね/いいよ)",
+          "I suppose not(そうではないと思う)",
+          "I hope not(そうならないことを願う)",
+          "I hope so(そうあってほしい)",
+          "I suppose not(来ないと思う)",
+          "I'm afraid not(残念ながら〜ない)",
+          "I'm afraid so(残念ながらそう)"
+        ]
+      },
+      {
+        "medium": "it",
+        "smalls": [
+          "It is + that節(真主語)",
+          "consider it C to do",
+          "S has it that ~(〜と言われている)",
+          "it(形式主語) + that 節",
+          "it(形式目的語) + 形容詞 + to do"
+        ]
+      },
+      {
+        "medium": "another",
+        "smalls": [
+          "another(もう一つ別の)",
+          "another(別の・不特定)",
+          "another + 数詞 + 複数名詞",
+          "another + 数詞 + 複数名詞(さらにあと〜)"
+        ]
+      },
+      {
+        "medium": "those who",
+        "smalls": [
+          "Those + V-ing(〜したい人々)",
+          "Those who(〜する人々)",
+          "those(分詞句で限定された人々)"
+        ]
+      },
+      {
+        "medium": "such",
+        "smalls": [
+          "as such(そのようなものとして)",
+          "as such(そのように)"
+        ]
+      },
+      {
+        "medium": "any",
+        "smalls": [
+          "Any(どんな〜でも)",
+          "if any(あるとしても)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "群前置詞",
+    "mediums": [
+      {
+        "medium": "慣用・その他",
+        "smalls": [
+          "for all(= in spite of:〜にもかかわらず)",
+          "in search of(= to look for:〜を探して)",
+          "on behalf of(= in place of:〜の代わりに)",
+          "with a view to(= for the purpose of:〜する目的で)",
+          "at the expense of(〜を犠牲にして)",
+          "at the mercy of(〜のなすがままに)",
+          "at the sight of(〜を見て)",
+          "in honor of(〜に敬意を表して)",
+          "up to(〜次第で)",
+          "in return for(〜のお返しに)",
+          "in favor of(〜に賛成して)",
+          "in charge of(〜を担当して)",
+          "on behalf of(〜を代表して)",
+          "be thankful to + 人",
+          "as to(〜について)",
+          "in regard to(〜に関して)",
+          "by way of(〜経由で)",
+          "in case of + 名詞(〜の場合には)",
+          "in the event of(〜の場合には)",
+          "in the direction of(〜の方向へ)",
+          "up to(次第)",
+          "up to(次第である)",
+          "in charge of(担当)",
+          "in charge of=responsible for",
+          "for=in favor of(賛成)",
+          "in favor of=for(賛成)",
+          "in favor of=in support of",
+          "on behalf of=representing",
+          "on behalf of=代理として",
+          "at the expense of(を犠牲にして)",
+          "at the cost of(を犠牲に)"
+        ]
+      },
+      {
+        "medium": "理由",
+        "smalls": [
+          "because of + 名詞(〜のために)",
+          "by virtue of(〜のおかげで/〜によって)",
+          "due to(〜が原因で)",
+          "for fear of(〜を恐れて/〜しないように)",
+          "on account of(〜のために)",
+          "owing to the fact that(〜という事実のために)",
+          "thanks to(〜のおかげで)",
+          "because of(〜のせいで)",
+          "because of(原因)",
+          "by virtue of=because of",
+          "on account of",
+          "on account of(のせいで)",
+          "on account of=because of",
+          "owing to(のおかげで)",
+          "owing to=because of",
+          "due to(のおかげで)",
+          "due to(のせいで)",
+          "due to+動名詞",
+          "due to=because of",
+          "thanks to",
+          "thanks to(のおかげで)",
+          "thanks to=because of"
+        ]
+      },
+      {
+        "medium": "譲歩",
+        "smalls": [
+          "in spite of + 名詞(〜にもかかわらず)",
+          "regardless of(〜に関係なく)",
+          "with all(〜があるにもかかわらず)",
+          "in spite of",
+          "in spite of(〜にもかかわらず)",
+          "in spite of(にもかかわらず)",
+          "in spite of+動名詞",
+          "regardless of",
+          "regardless of(に関係なく)",
+          "for all(にもかかわらず)",
+          "for all=despite"
+        ]
+      },
+      {
+        "medium": "観点・話題",
+        "smalls": [
+          "according to(〜によれば)",
+          "in light of(〜を考慮して)",
+          "in terms of(〜の観点から)",
+          "as for(〜はといえば)",
+          "as for(については)",
+          "as for(に関しては)",
+          "in terms of(に関しては)",
+          "in terms of(の観点)",
+          "in terms of(の観点から)"
+        ]
+      },
+      {
+        "medium": "追加・並列",
+        "smalls": [
+          "as well as(〜だけでなく)",
+          "in addition to + 名詞/動名詞(〜に加えて)",
+          "A as well as B(動詞はAに合わせる)",
+          "as well as(と同様に)",
+          "as well as(動詞はAに)",
+          "as well as+be動詞",
+          "in addition to",
+          "in addition to(に加えて)",
+          "besides(に加えて)"
+        ]
+      },
+      {
+        "medium": "代替・対比",
+        "smalls": [
+          "contrary to(〜に反して)",
+          "instead of doing(〜する代わりに)",
+          "in comparison with(〜と比べて)",
+          "contrary to(に反して)",
+          "instead of",
+          "instead of(の代わりに)",
+          "instead of+動名詞"
+        ]
+      },
+      {
+        "medium": "目的",
+        "smalls": [
+          "for the sake of(〜のために)",
+          "with a view to doing(〜する目的で)",
+          "for the purpose of",
+          "for the purpose of(の目的で)",
+          "for the purpose of=with a view to",
+          "with a view to",
+          "with a view to+動名詞"
+        ]
+      },
+      {
+        "medium": "除外",
+        "smalls": [
+          "apart from(〜を除いて/〜は別として)",
+          "other than(〜以外に)",
+          "apart from(に加えて)",
+          "apart from(のほかに)",
+          "apart from=besides(に加えて)",
+          "other than(以外に)",
+          "aside from(を除いて)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "形容詞の語法",
+    "mediums": [
+      {
+        "medium": "派生語の区別",
+        "smalls": [
+          "considerate(思いやりのある)",
+          "economic(経済の)",
+          "economical of(節約する)",
+          "favorable(好都合な)",
+          "imaginary(想像上の)",
+          "literary(文学の)",
+          "respectable(立派な)",
+          "respectful of",
+          "respectful of(〜を尊重する)",
+          "respectful towards",
+          "respectful(敬意を払う)",
+          "respective(それぞれの)",
+          "sensible(賢明な)",
+          "sensible=wise(賢明な)",
+          "sensitive(感受性が強い)",
+          "sensitive(敏感な)",
+          "successful(成功した)",
+          "valueless(無価値の)"
+        ]
+      },
+      {
+        "medium": "a little/a few",
+        "smalls": [
+          "a few of+特定名詞句(〜のうちの少数)",
+          "a few+可算(少しある)",
+          "a little more+不可算(もう少し)",
+          "a little+不可算(少し)",
+          "a little+不可算(少しある)",
+          "a little+不可算名詞(少しある)",
+          "few+可算(ほとんどない)",
+          "fewer+可算(より少ない)",
+          "little+不可算(ほとんどない)",
+          "little+不可算名詞(ほとんどない)",
+          "quite a few(かなり多くの)"
+        ]
+      },
+      {
+        "medium": "感情形容詞",
+        "smalls": [
+          "annoying(物がいらだたせる)",
+          "bored(人が退屈する)",
+          "boring(物が退屈)",
+          "disappointing(物が失望させる)",
+          "excited(人が興奮する)",
+          "exciting(物が興奮させる)",
+          "get excited(人が興奮する)",
+          "interesting(物が興味深い)",
+          "shocked(人がショックを受ける)",
+          "shocking(物・事が衝撃的)",
+          "surprised(人が驚く)",
+          "surprising(物・事が驚かせる)",
+          "thrilled(人がワクワク)",
+          "tired(人が疲れる)",
+          "tiring(物が疲れさせる)"
+        ]
+      },
+      {
+        "medium": "数量・サイズの形容詞",
+        "smalls": [
+          "a few + 可算複数(少しはいる)",
+          "a little + 不可算名詞(少しはある)",
+          "a number of + 複数(多くの)",
+          "a number of+複数(多くの)",
+          "little + 不可算名詞(ほとんどない)",
+          "quite a few(かなり多くの)",
+          "so many + 可算複数",
+          "that much(それほど多く:不可算)",
+          "very few + 可算複数(ごくわずか)",
+          "high price",
+          "high price(値段が高い)",
+          "large population",
+          "a large audience",
+          "how large(人口の大きさ)",
+          "large population(比較)",
+          "a large number of",
+          "the number+large"
+        ]
+      },
+      {
+        "medium": "分詞形容詞",
+        "smalls": [
+          "-ed(人ががっかりさせられる)",
+          "-ed(人が混乱させられる)",
+          "-ed(人が興奮させられる)",
+          "-ed(人が退屈させられる)",
+          "-ing(出来事が疲れさせる)",
+          "-ing(出来事が興奮させる)",
+          "-ing(物ががっかりさせる)",
+          "-ing(物が興味を起こさせる)",
+          "-ing(物が退屈させる)",
+          "-ing(物事が〜させる)",
+          "be pleased with(〜に喜ぶ)",
+          "moving(感動させる)",
+          "embarrassing(きまり悪い)"
+        ]
+      },
+      {
+        "medium": "紛らわしい形容詞",
+        "smalls": [
+          "alike(叙述用法のみ「似ている」)",
+          "alive(叙述用法「生きている」)",
+          "living(限定用法「現存の」)⇔ alive",
+          "economic(経済の)⇔ economical(節約的な)",
+          "favorable(好都合な)⇔ favorite(お気に入りの)",
+          "imaginary(架空の)",
+          "industrial(産業の)⇔ industrious(勤勉な)",
+          "respectful(敬意を払う)",
+          "sensitive(敏感な)⇔ sensible(分別のある)",
+          "successful(成功した)",
+          "convenient(人を主語にしない)",
+          "a large audience(数の多さは large)",
+          "audience(観衆)"
+        ]
+      },
+      {
+        "medium": "可算/不可算",
+        "smalls": [
+          "some + 可算複数(肯定文)",
+          "疑問文でも some(依頼・勧誘)",
+          "a number of+複数名詞+複数動詞",
+          "much+不可算(どれだけ)",
+          "much+不可算(否定文)",
+          "some advice(不可算)",
+          "some+不可算(いくらかの)",
+          "some+可算(勧誘文)"
+        ]
+      },
+      {
+        "medium": "形容詞+前置詞",
+        "smalls": [
+          "be capable of doing",
+          "be afraid of",
+          "be afraid of(〜を恐れる)",
+          "be able to do",
+          "be capable of +ing",
+          "be capable of +ing(〜できる)"
+        ]
+      },
+      {
+        "medium": "lively/alive/living/live",
+        "smalls": [
+          "alive(生きている)叙述",
+          "lively(活発な)"
+        ]
+      },
+      {
+        "medium": "形容詞+to do",
+        "smalls": [
+          "be able to do(人主語)",
+          "be worth + 金額/名詞",
+          "be likely to do(〜しそうである)",
+          "worth+名詞(〜の価値がある)",
+          "worth+金額/動名詞"
+        ]
+      },
+      {
+        "medium": "convenient",
+        "smalls": [
+          "It is convenient for+人",
+          "convenient for+人",
+          "convenient(物・時が便利)"
+        ]
+      },
+      {
+        "medium": "possible",
+        "smalls": [
+          "It is possible for+人+to do",
+          "it is possible to do"
+        ]
+      },
+      {
+        "medium": "alike",
+        "smalls": [
+          "alike(似ている)",
+          "alike(似ている)の比較級"
+        ]
+      },
+      {
+        "medium": "already/yet/still",
+        "smalls": [
+          "already(肯定文で「すでに」)",
+          "yet(否定文で「まだ」)"
+        ]
+      },
+      {
+        "medium": "be able to/unable",
+        "smalls": [
+          "weren't able to(できなかった)",
+          "be unable to do"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "名詞の語法",
+    "mediums": [
+      {
+        "medium": "類義語の区別",
+        "smalls": [
+          "appointment(面会の約束)⇔ reservation",
+          "capacity(収容能力)",
+          "change the subject(話題を変える)",
+          "customer(店の客)",
+          "fare(交通運賃)",
+          "fault(落ち度・責任)",
+          "fine(罰金)",
+          "habit(個人の習慣・癖)⇔ custom",
+          "the cost of living(生活費)",
+          "It is one's fault(〜のせい)",
+          "audience(観客=聴衆)",
+          "bus fare(バス運賃)",
+          "client",
+          "client(依頼人)",
+          "cost of living",
+          "cost of living(生活費)",
+          "cost(費用)",
+          "customer",
+          "customer(顧客)",
+          "entrance fee(入場料)",
+          "fare(運賃)",
+          "fee(授業料・専門サービス料)",
+          "habit(個人の習慣)",
+          "interest",
+          "interest(利息)",
+          "job(作業)",
+          "job(可算)",
+          "job(可算/仕事)",
+          "one's fault(〜のせい)",
+          "passenger",
+          "passenger(乗客)",
+          "round-trip fare(往復運賃)",
+          "spectator",
+          "spectator(観客)",
+          "tax",
+          "tax(税金)",
+          "taxi fare(タクシー運賃)",
+          "train fare(電車運賃)"
+        ]
+      },
+      {
+        "medium": "成句・慣用",
+        "smalls": [
+          "a command of(言語の運用力)",
+          "beyond one's means(収入を超えて)",
+          "change trains(乗り換える)",
+          "give one's regards(よろしく伝える)",
+          "have no idea(まったくわからない)",
+          "make friends with(〜と友達になる)",
+          "on good terms with(〜と仲が良い)",
+          "room(余地・空間、不可算)",
+          "take turns doing(交代で〜する)",
+          "the case(実情・事実)",
+          "to the effect that(〜という趣旨で)",
+          "a man of one's word",
+          "a man of one's word(約束を守る人)",
+          "beyond one's means",
+          "beyond one's means(分不相応)",
+          "break one's word(約束を破る)",
+          "by appointment",
+          "by appointment(予約で)",
+          "change the subject(話題を変える)",
+          "change trains",
+          "command of a language(言語の運用力)",
+          "give my regards to(よろしくお伝えください)",
+          "make friends with",
+          "make friends with(友達になる)",
+          "means of communication(通信手段)",
+          "on good terms with",
+          "on good terms with(仲が良い)",
+          "pairs of glasses(2組の眼鏡)",
+          "pairs of shoes(靴の数え方)",
+          "room for(〜の余地)",
+          "take turns(交代で〜する)",
+          "the number of(〜の数)",
+          "the number of+複数+is(数は単数扱い)",
+          "to that effect(その趣旨の)",
+          "比較構文+the number"
+        ]
+      },
+      {
+        "medium": "不可算名詞",
+        "smalls": [
+          "a lot of damage",
+          "a lot of information",
+          "a lot of+furniture",
+          "a lot of+information",
+          "a piece of advice(一つの助言)",
+          "a piece of information",
+          "advice(不可算)",
+          "advice(不可算、much)",
+          "evidence(証拠、不可算)",
+          "furniture(家具、不可算)",
+          "homework(不可算、much)",
+          "information(不可算、some)",
+          "luggage(手荷物、不可算)",
+          "machinery(機械類、不可算)",
+          "much+furniture(不可算)",
+          "my homework(不可算)",
+          "pieces of baggage",
+          "some furniture",
+          "some+information(不可算)"
+        ]
+      },
+      {
+        "medium": "語彙",
+        "smalls": [
+          "niece(姪)",
+          "labor(労働・労苦)",
+          "passenger(乗客)",
+          "stranger(その土地に不案内な人)",
+          "trustworthy(信頼できる)",
+          "sentence(判決・刑)",
+          "occupation(= profession:職業)",
+          "give 人 a job(= employ/hire)",
+          "nephew(甥)",
+          "dentist(歯科医)"
+        ]
+      },
+      {
+        "medium": "派生語の区別",
+        "smalls": [
+          "below capacity(生産能力以下)",
+          "seating capacity",
+          "seating capacity(収容人数)"
+        ]
+      },
+      {
+        "medium": "分数",
+        "smalls": [
+          "one fifth of(5分の1)",
+          "Three fifths(5分の3)"
+        ]
+      },
+      {
+        "medium": "名詞の語法",
+        "smalls": [
+          "a pair of(2つで1組の名詞)",
+          "an increase in the number of(〜の数の増加)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "副詞の語法",
+    "mediums": [
+      {
+        "medium": "hardly/scarcely",
+        "smalls": [
+          "hardly ever(めったに〜ない)",
+          "hardly(ほとんど〜ない:程度)",
+          "scarcely anyone(ほとんど誰も〜ない)",
+          "hardly any",
+          "hardly any of",
+          "hardly any(ほとんど〜ない)",
+          "hardly ever(ほとんど〜ない)",
+          "hardly(ほとんど〜ない)",
+          "scarcely any+不可算",
+          "scarcely anyone",
+          "hard(一生懸命)",
+          "try hard not to do"
+        ]
+      },
+      {
+        "medium": "時の副詞",
+        "smalls": [
+          "ago(現在から〜前)",
+          "already(肯定文「すでに」)",
+          "before(現在完了「以前に」)",
+          "ever(経験を問う疑問文「今までに」)",
+          "since(それ以来ずっと)",
+          "still(まだ、依然として)",
+          "yet(否定文「まだ〜ない」)",
+          "already(早くも)",
+          "still(それでも)",
+          "still(まだ)",
+          "since(〜以来)",
+          "ago(〜前に/現在から)",
+          "ever(疑問文で「今までに」)",
+          "at first(最初は)"
+        ]
+      },
+      {
+        "medium": "接続副詞・つなぎ",
+        "smalls": [
+          "nevertheless(それにもかかわらず)",
+          "otherwise(さもないと)",
+          "still(それでもなお:逆接)",
+          "on top of that(= moreover:その上)",
+          "Nevertheless(それにもかかわらず)",
+          "nevertheless(それでも)",
+          "Moreover(さらに)",
+          "also(〜もまた)",
+          "Therefore(したがって)"
+        ]
+      },
+      {
+        "medium": "otherwise",
+        "smalls": [
+          "otherwise(その他の点では)",
+          "otherwise(別なふうに、そうでなく)",
+          "but otherwise(その他の点では)",
+          "otherwise(さもないと)",
+          "otherwise(そうしないと/または)"
+        ]
+      },
+      {
+        "medium": "late/lately",
+        "smalls": [
+          "late(遅く)",
+          "late(遅れて)",
+          "late(遅刻して)",
+          "lately(最近)"
+        ]
+      },
+      {
+        "medium": "almost/nearly",
+        "smalls": [
+          "almost(もう少しで)",
+          "nearly(もう少しで)",
+          "nearly(危うく)",
+          "mostly(主に)"
+        ]
+      },
+      {
+        "medium": "home(副詞)",
+        "smalls": [
+          "fast asleep(ぐっすり眠って)",
+          "come home",
+          "go home",
+          "go home(家に帰る)"
+        ]
+      },
+      {
+        "medium": "副詞の語法",
+        "smalls": [
+          "fast asleep(ぐっすり眠って)",
+          "hard(副詞「熱心に」)⇔ hardly",
+          "much too + 形容詞(あまりに〜すぎる)",
+          "overseas(副詞「海外へ」、前置詞不要)"
+        ]
+      },
+      {
+        "medium": "紛らわしい副詞",
+        "smalls": [
+          "respectively(それぞれ)",
+          "high(物理的に高く)"
+        ]
+      },
+      {
+        "medium": "程度",
+        "smalls": [
+          "nearly(危うく/ほとんど)",
+          "much too+形容詞",
+          "much too+形容詞(あまりにも)"
+        ]
+      },
+      {
+        "medium": "頻度",
+        "smalls": [
+          "rarely(めったに〜ない)"
+        ]
+      },
+      {
+        "medium": "副詞句",
+        "smalls": [
+          "at first(最初は〜だが後で…)"
+        ]
+      },
+      {
+        "medium": "文修飾副詞",
+        "smalls": [
+          "Interestingly(興味深いことに)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "会話表現（機能別）",
+    "mediums": [
+      {
+        "medium": "感謝",
+        "smalls": [
+          "I appreciate it(感謝します)",
+          "Thank you for doing(〜してくれてありがとう)",
+          "Thank you so much(本当にありがとう)"
+        ]
+      },
+      {
+        "medium": "提案・申し出",
+        "smalls": [
+          "How about doing?(〜はどう?)",
+          "Can I get you ~?(〜をお持ちしましょうか)",
+          "Why not?(いいね/もちろん)"
+        ]
+      },
+      {
+        "medium": "あいさつ",
+        "smalls": [
+          "It's been a long time(久しぶり)",
+          "say hello to(〜によろしく)"
+        ]
+      },
+      {
+        "medium": "依頼・許可",
+        "smalls": [
+          "Go ahead(どうぞ)",
+          "I'd like you to do(あなたに〜してほしい)"
+        ]
+      },
+      {
+        "medium": "接客・電話",
+        "smalls": [
+          "Anything else?(ほかに何か?)",
+          "be out(外出中)"
+        ]
+      },
+      {
+        "medium": "賛否・意見",
+        "smalls": [
+          "object to(〜に反対する)",
+          "I'm afraid(残念ながら)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "動詞の語法",
+    "mediums": [
+      {
+        "medium": "使役動詞",
+        "smalls": [
+          "get O to do(Oに〜させる/してもらう)",
+          "have O do(Oに〜してもらう)",
+          "let O do(Oに〜させてやる)",
+          "make O do(Oに(無理に)〜させる)",
+          "What made O do?(無生物主語)",
+          "get O done",
+          "get O done(完了させる)",
+          "get O done(被害)",
+          "get O to do",
+          "have O do(人に〜させる)",
+          "have O do(原形)",
+          "have O do(原形不定詞)",
+          "have O done",
+          "have O done(〜してもらう)",
+          "have O done(被害)",
+          "let O do",
+          "let O do(原形)",
+          "let O do(原形不定詞)",
+          "make O do(原形)",
+          "make O do(原形不定詞)",
+          "get O done(Oを〜される)",
+          "to have O done(〜してもらうために)"
+        ]
+      },
+      {
+        "medium": "動名詞/不定詞で意味が変わる動詞",
+        "smalls": [
+          "forget doing((過去に)〜したのを忘れる)",
+          "forget to do(これから〜するのを忘れる)",
+          "mean doing(〜することになる)",
+          "regret doing((過去に)〜したことを後悔する)",
+          "remember doing((過去に)〜したのを覚えている)",
+          "remember to do(これから〜する)",
+          "stop doing(〜するのをやめる)",
+          "try doing(試しに〜してみる)",
+          "try to do(〜しようと努める)",
+          "forget to do",
+          "forget to do(これから〜)",
+          "forget to do(これから〜することを忘れる)",
+          "never forget +ing",
+          "never forget +ing(〜したことを決して忘れない)",
+          "never/won't forget +ing",
+          "regret +ing(〜したことを後悔する)",
+          "remember +ing(〜したのを覚えている)",
+          "remember to do(これから〜)",
+          "remember to do(これから〜することを忘れない)",
+          "stop +ing(〜をやめる)",
+          "try +ing(試しに〜してみる)"
+        ]
+      },
+      {
+        "medium": "O+to do をとる動詞",
+        "smalls": [
+          "allow O to do(Oが〜するのを許す)",
+          "enable O to do(Oが〜するのを可能にする)",
+          "encourage O to do(Oに〜するよう促す)",
+          "expect O to do(Oが〜するのを予期する)",
+          "force O to do(Oに無理に〜させる)",
+          "want O to do",
+          "want O to be done",
+          "want O to be done(受動)",
+          "help (to) do",
+          "allow O to do",
+          "be allowed to do(受動)",
+          "ask O to do",
+          "advise O to do",
+          "persuade O to do",
+          "cause O to do",
+          "lead O to do(Oを〜するに至らせる)",
+          "enable O to do",
+          "enable O to do(無生物主語)",
+          "make it+形容詞+for+人+to do",
+          "encourage O to do"
+        ]
+      },
+      {
+        "medium": "動名詞を目的語に取る動詞",
+        "smalls": [
+          "avoid doing(〜を避ける)",
+          "consider doing",
+          "enjoy doing",
+          "finish doing",
+          "give up doing(〜するのをあきらめる)",
+          "mind doing",
+          "avoid +ing",
+          "consider +ing",
+          "enjoy +ing",
+          "finish +ing",
+          "give up +ing",
+          "mind +ing",
+          "stop +ing(〜するのをやめる)"
+        ]
+      },
+      {
+        "medium": "他動詞",
+        "smalls": [
+          "approach + 目的語(前置詞不要)",
+          "discuss + 目的語(前置詞不要)",
+          "mention + 目的語(前置詞不要)",
+          "resemble + 目的語(状態動詞)",
+          "approach(他動詞)",
+          "discuss(他動詞)",
+          "enter(他動詞)",
+          "marry(他動詞)",
+          "reach(他動詞)",
+          "reach(連絡が届く)",
+          "resemble(他動詞)",
+          "resemble(他動詞・受動不可)",
+          "get married to / marry + O",
+          "introduce 人 to 人(人を人に紹介する)",
+          "meet+needs(満たす)",
+          "meet+needs/demands(満たす)"
+        ]
+      },
+      {
+        "medium": "自動詞+前置詞",
+        "smalls": [
+          "apologize (to 人) for doing",
+          "argue with(〜と口論する)",
+          "complain about(〜について不平を言う)",
+          "talk 人 into doing(説得して〜させる)",
+          "be convinced of ~(〜を確信している)",
+          "clear A of B(AからBを取り除く)",
+          "cure 人 of ~(人の〜を治す)",
+          "deprive 人 of ~(人から〜を奪う)",
+          "be aware of",
+          "be conscious of",
+          "apologize for",
+          "apologize for(〜のことを謝る)",
+          "graduate from(卒業する)",
+          "complain about(自動詞)",
+          "complain to+人+about+事",
+          "go with(物と調和する)"
+        ]
+      },
+      {
+        "medium": "不定詞を目的語に取る動詞",
+        "smalls": [
+          "hope to do",
+          "can afford to do(〜する余裕がある)",
+          "fail to do(〜しない/しそこなう)",
+          "manage to do(どうにか〜する)",
+          "pretend to be(〜のふりをする)",
+          "afford to do",
+          "cannot afford to do",
+          "manage to do(なんとか〜する)",
+          "never fail to do(必ず〜する)",
+          "promise to do"
+        ]
+      },
+      {
+        "medium": "say/tell/speak/talkの区別",
+        "smalls": [
+          "be told that ~(〜と告げられる)",
+          "explain to 人(人に説明する)",
+          "say that ~(〜と伝えている)",
+          "say to 人 that ~",
+          "talk to 人(〜と話す)",
+          "talk about + 話題",
+          "tell + 人 + 内容",
+          "tell + 人 + 物(SVOO)",
+          "say that",
+          "say(〜と書いてある)",
+          "say(〜と言う/書いてある)",
+          "say(書面に〜と書かれている)",
+          "tell+人+how to do",
+          "tell+人+that",
+          "talk+人+into +ing(説得して〜させる)"
+        ]
+      },
+      {
+        "medium": "S+V+C",
+        "smalls": [
+          "feel + 形容詞",
+          "stay fit(健康を保つ)",
+          "taste like + 名詞",
+          "go wrong(調子が悪くなる)",
+          "come true(実現する)",
+          "come to do(〜するようになる)",
+          "feel+形容詞",
+          "get+形容詞(〜になる)",
+          "go+悪い状態(なる)",
+          "look like+名詞",
+          "turn+名詞/形容詞(〜になる)"
+        ]
+      },
+      {
+        "medium": "do",
+        "smalls": [
+          "do harm(害になる)",
+          "do 人 a favor(頼みを聞く)",
+          "will do(間に合う、用が足りる)",
+          "do(役に立つ・間に合う)",
+          "do+人+a favor",
+          "do+人+harm",
+          "do+人+harm(害を与える)",
+          "that'll do(十分)"
+        ]
+      },
+      {
+        "medium": "remind",
+        "smalls": [
+          "remind 人 of ~(人に〜を思い出させる)",
+          "remind 人 to do(〜するよう念を押す)",
+          "remind+人+of+物",
+          "remind+人+of+物(〜を思い出させる)",
+          "remind+人+to do",
+          "remember to do"
+        ]
+      },
+      {
+        "medium": "成句",
+        "smalls": [
+          "want there to be(〜があってほしい)",
+          "It follows that ~(〜ということになる)",
+          "replace(交換する)",
+          "get married to(〜と結婚する)",
+          "get married(結婚する)",
+          "married to(〜と結婚している)",
+          "on behalf of(〜のために/代表して)",
+          "on behalf of(〜を代表して)",
+          "It doesn't matter (wh-)(〜は問題でない)",
+          "It follows that(〜という結果になる)"
+        ]
+      },
+      {
+        "medium": "提案・要求の動詞",
+        "smalls": [
+          "suggest (that) S (should) 原形",
+          "order that S (should) 原形",
+          "suggest that S+(should)+do(仮定法現在)",
+          "suggest to O that S+V",
+          "demand that S+(should)+do(仮定法現在)",
+          "wish O O(SVOO)",
+          "request that S+(should)+do",
+          "request that S+(should)+do (仮定法現在)"
+        ]
+      },
+      {
+        "medium": "lay/lieの区別",
+        "smalls": [
+          "lie(自動詞「横たわる」)",
+          "lay-laid-laid(他動詞)",
+          "lay-laid-laid(他動詞:置く)の過去分詞",
+          "lie(自動詞:横たわる)の現在分詞 lying",
+          "lie-lay-lain(自動詞:横たわる)の過去形"
+        ]
+      },
+      {
+        "medium": "prevent",
+        "smalls": [
+          "prevent 人 from doing(人が〜するのを妨げる)",
+          "prevent O from -ing",
+          "prohibit 人 from doing(人が〜するのを禁じる)",
+          "prohibit O from -ing",
+          "prohibit O from -ing(〜を禁ずる)"
+        ]
+      },
+      {
+        "medium": "rob",
+        "smalls": [
+          "rob 人 of 物 → 受動 be robbed of",
+          "be robbed of(奪われる)",
+          "had been robbed of/have O stolen",
+          "rob+人+of+物"
+        ]
+      },
+      {
+        "medium": "知覚動詞",
+        "smalls": [
+          "hear O do(原形)",
+          "listen to O do(原形)",
+          "see O do(原形)"
+        ]
+      },
+      {
+        "medium": "cost",
+        "smalls": [
+          "cost 人 + 物(〜を犠牲にさせる)",
+          "cost 人 + 金額(費用がかかる)",
+          "It costs O 金額 to do",
+          "cost O O(犠牲を払わせる)",
+          "cost O 金額",
+          "cost O 金額(費用がかかる)"
+        ]
+      },
+      {
+        "medium": "fit/suit/matchの区別",
+        "smalls": [
+          "suit 人(似合う:色・服など)",
+          "suit+人(似合う)",
+          "fit 人(サイズが合う)",
+          "match+物(物と合う)",
+          "fit+人(サイズが合う)"
+        ]
+      },
+      {
+        "medium": "last",
+        "smalls": [
+          "last(続く、持続する)",
+          "last(続く)",
+          "last(長持ちする)",
+          "last(食料などがもつ)",
+          "the last person to do(最も〜しそうにない)",
+          "the last person+関係詞(最も〜しそうにない)"
+        ]
+      },
+      {
+        "medium": "rise/raiseの区別",
+        "smalls": [
+          "raise(他動詞、受動態にできる)",
+          "rise(自動詞「上がる」)",
+          "raise(他動詞:上げる)",
+          "rise(自動詞)の現在完了進行形",
+          "rise(自動詞:上がる)"
+        ]
+      },
+      {
+        "medium": "borrow/lend/rentの区別",
+        "smalls": [
+          "borrow(無料で借りる)",
+          "lend+人+物(貸す)"
+        ]
+      },
+      {
+        "medium": "explain",
+        "smalls": [
+          "explain N to+人",
+          "explain to+人+that節",
+          "explain to+人+why節"
+        ]
+      },
+      {
+        "medium": "provide",
+        "smalls": [
+          "provide 人 with 物(人に物を供給する)",
+          "provide+人+with+物",
+          "furnish 人 with 物(人に物を供給する)"
+        ]
+      },
+      {
+        "medium": "accuse",
+        "smalls": [
+          "accuse 人 of doing(人を〜のことで非難する)",
+          "accuse+人+of+事",
+          "accuse+人+of+事(〜を非難する)"
+        ]
+      },
+      {
+        "medium": "discourage",
+        "smalls": [
+          "discourage 人 from doing(思いとどまらせる)",
+          "discourage O from -ing"
+        ]
+      },
+      {
+        "medium": "inform",
+        "smalls": [
+          "inform 人 of ~(人に〜を知らせる)",
+          "inform+人+of+事",
+          "keep+人+informed(知らせ続ける)"
+        ]
+      },
+      {
+        "medium": "keep",
+        "smalls": [
+          "keep O from doing(Oが〜しないようにする)",
+          "keep O from -ing",
+          "keep O from -ing(〜させないようにする)",
+          "keep O+形容詞(Oを〜の状態に保つ)"
+        ]
+      },
+      {
+        "medium": "take",
+        "smalls": [
+          "It takes (人) 時間 to do",
+          "take 人 to 場所(人を〜へ連れて行く)",
+          "take+人+to+場所(無生物主語)",
+          "bring 人 to 場所(〜が人を…に至らせる)"
+        ]
+      },
+      {
+        "medium": "appreciate",
+        "smalls": [
+          "appreciate + 物(〜をありがたく思う)",
+          "I would appreciate it if(〜してくれるとありがたい)",
+          "appreciate+物/事(感謝する)"
+        ]
+      },
+      {
+        "medium": "charge",
+        "smalls": [
+          "charge 人 + 金額(請求する)",
+          "charge 人 with ~(人を〜の罪で告発する)",
+          "charge+人+with+罪"
+        ]
+      },
+      {
+        "medium": "deprive",
+        "smalls": [
+          "be deprived of+物(奪われる)",
+          "deprive O of N(OからNを奪う)",
+          "deprive+人+of+物"
+        ]
+      },
+      {
+        "medium": "help",
+        "smalls": [
+          "help O (to) do",
+          "help O do(Oが〜するのを助ける)",
+          "help O with N"
+        ]
+      },
+      {
+        "medium": "need+ing(受動の意味)",
+        "smalls": [
+          "need to be done(〜される必要がある)",
+          "need +ing(=need to be done)"
+        ]
+      },
+      {
+        "medium": "owe",
+        "smalls": [
+          "owe 人 金額(人に〜の借りがある)",
+          "owe N to+人(〜のおかげである)",
+          "owe+人+物/金額(借りている)"
+        ]
+      },
+      {
+        "medium": "save",
+        "smalls": [
+          "save 人 + 時間/労力(省く)",
+          "save O 金額",
+          "save O 金額(節約させる)"
+        ]
+      },
+      {
+        "medium": "share",
+        "smalls": [
+          "share A with 人(人とAを分かち合う)",
+          "share N with+人"
+        ]
+      },
+      {
+        "medium": "spare",
+        "smalls": [
+          "spare 人 時間(時間を割く)",
+          "spare O 時間(割く)",
+          "spare(予備の・余分の)"
+        ]
+      },
+      {
+        "medium": "blame",
+        "smalls": [
+          "blame 人 for ~(〜のことで人を責める)",
+          "blame+人+for+事"
+        ]
+      },
+      {
+        "medium": "convince",
+        "smalls": [
+          "convince+人+of+事"
+        ]
+      },
+      {
+        "medium": "mind",
+        "smalls": [
+          "Do you mind if I do?(〜してもよいですか)",
+          "Do you mind if(〜してもいいですか)"
+        ]
+      },
+      {
+        "medium": "pay",
+        "smalls": [
+          "pay(割に合う、報われる)",
+          "It pays to do(〜する価値がある)"
+        ]
+      },
+      {
+        "medium": "thank",
+        "smalls": [
+          "thank 人 for ~(〜のことで人に感謝する)",
+          "thank+人+for+事"
+        ]
+      },
+      {
+        "medium": "clear",
+        "smalls": [
+          "clear+場所+of+物(場所から物を取り除く)"
+        ]
+      },
+      {
+        "medium": "cure",
+        "smalls": [
+          "be cured of+病気/依存"
+        ]
+      },
+      {
+        "medium": "read",
+        "smalls": [
+          "read(〜と書いてある)"
+        ]
+      },
+      {
+        "medium": "sell",
+        "smalls": [
+          "sell(売れる・自動詞)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "会話表現（場面別）",
+    "mediums": [
+      {
+        "medium": "応答・つなぎ表現",
+        "smalls": [
+          "What do you do?(職業を尋ねる)",
+          "I wish I could(残念だができない)",
+          "What do you mean?(どういう意味?)",
+          "I heard that before(もう知っている)",
+          "In that case(それなら)",
+          "At the same time(一方で・同時に)",
+          "For example(例えば)",
+          "In addition(その上)",
+          "be involved in(〜に携わる)",
+          "make it to ~(〜に間に合う/たどり着く)"
+        ]
+      },
+      {
+        "medium": "買い物・会計",
+        "smalls": [
+          "Here you are(はいどうぞ)",
+          "I'm just looking(見ているだけ)",
+          "May I help you?(いらっしゃいませ)",
+          "look + 形容詞(〜に見える)",
+          "Can I use a credit card?(カードで払えますか)",
+          "It's on me(私のおごり)",
+          "split the bill(割り勘にする)"
+        ]
+      },
+      {
+        "medium": "予定・会議",
+        "smalls": [
+          "I'm available most days(ほとんどの日が空いている)",
+          "get down to business(本題に入る)",
+          "have a good time doing(〜して楽しい時を過ごす)",
+          "spend 時間 doing(〜して時間を過ごす)"
+        ]
+      },
+      {
+        "medium": "電話",
+        "smalls": [
+          "May I have him call you back?(折り返し)",
+          "You must have the wrong number(番号違い)",
+          "put you through(電話をつなぐ)",
+          "speaking(こちらは〜です)"
+        ]
+      },
+      {
+        "medium": "交通・道案内",
+        "smalls": [
+          "every + 期間(〜ごとに)",
+          "Could you tell me how to get to ~?",
+          "Let me check(確認させて)"
+        ]
+      },
+      {
+        "medium": "体調・健康",
+        "smalls": [
+          "What is wrong with him?(どうしたの?)",
+          "have a pain in ~(〜が痛む)",
+          "take one's temperature(熱を測る)"
+        ]
+      },
+      {
+        "medium": "感想・意見",
+        "smalls": [
+          "How do you like ~?(〜はどう?)",
+          "In my view(私の考えでは)",
+          "to my surprise(驚いたことに)"
+        ]
+      },
+      {
+        "medium": "飲食・レストラン",
+        "smalls": [
+          "I'm full(おなかいっぱい)",
+          "my order hasn't come yet(注文がまだ来ない)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "副詞中心のイディオム",
+    "mediums": [
+      {
+        "medium": "let alone",
+        "smalls": [
+          "let alone(まして〜ない)",
+          "let alone"
+        ]
+      },
+      {
+        "medium": "right away",
+        "smalls": [
+          "right away(= at once:すぐに)",
+          "right away=immediately",
+          "right away=at once"
+        ]
+      },
+      {
+        "medium": "so far",
+        "smalls": [
+          "so far(今までのところ)",
+          "so far=up to now",
+          "so far(今までに)"
+        ]
+      },
+      {
+        "medium": "by and large",
+        "smalls": [
+          "by and large(概して)",
+          "by and large=generally"
+        ]
+      },
+      {
+        "medium": "next to",
+        "smalls": [
+          "next to + 否定語(ほとんど〜ない)",
+          "next to impossible(ほぼ不可能)",
+          "next to nothing(ほぼ何もない)"
+        ]
+      },
+      {
+        "medium": "once and for all",
+        "smalls": [
+          "once and for all(= finally:きっぱりと)",
+          "once and for all(きっぱりと/最終的に)",
+          "once and for all=definitely"
+        ]
+      },
+      {
+        "medium": "upside down",
+        "smalls": [
+          "upside down(逆さまに)",
+          "upside down(逆さま)"
+        ]
+      },
+      {
+        "medium": "what with",
+        "smalls": [
+          "what with A and B(あれやこれやで)",
+          "what with A and B(AやらBで)",
+          "what with(やらで)"
+        ]
+      },
+      {
+        "medium": "now and then",
+        "smalls": [
+          "every now and then(= occasionally:時々)",
+          "now and then(時々)"
+        ]
+      },
+      {
+        "medium": "off and on",
+        "smalls": [
+          "on and off(= occasionally:断続的に)",
+          "off and on=sometimes"
+        ]
+      },
+      {
+        "medium": "sooner or later",
+        "smalls": [
+          "sooner or later(遅かれ早かれ)",
+          "sooner or later=in time"
+        ]
+      },
+      {
+        "medium": "as yet",
+        "smalls": [
+          "as yet(今のところまだ)"
+        ]
+      },
+      {
+        "medium": "by no means",
+        "smalls": [
+          "by no means=not at all"
+        ]
+      },
+      {
+        "medium": "inside out",
+        "smalls": [
+          "inside out(裏返しに)"
+        ]
+      },
+      {
+        "medium": "more often than not",
+        "smalls": [
+          "more often than not(たいてい)"
+        ]
+      },
+      {
+        "medium": "more or less",
+        "smalls": [
+          "more or less(ほぼ)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "形容詞中心のイディオム",
+    "mediums": [
+      {
+        "medium": "to",
+        "smalls": [
+          "be likely to do(〜しそうだ)",
+          "be similar to(〜に似ている)",
+          "be subject to(〜の対象となる)",
+          "faithful to(= loyal to:忠実な)",
+          "be reluctant to do(〜したがらない)",
+          "be eager to do(しきりに〜したがる)",
+          "be supposed to do(〜することになっている)",
+          "be willing to do(進んで〜する)",
+          "Be sure to do(必ず〜しなさい)",
+          "be familiar to 人(物が人に知られている)",
+          "be equal to(〜に等しい)",
+          "be exposed to(〜にさらされる)",
+          "be opposed to(= object to:反対する)",
+          "be apt to(= be inclined to:〜しがちだ)",
+          "be bound to(= be obliged to:〜する義務がある)",
+          "indifferent to(無関心)",
+          "be likely to+動詞原形",
+          "as likely to(可能性同程度)",
+          "be likely to",
+          "be subject to change",
+          "subject to change",
+          "unwilling to(気が進まない)",
+          "reluctant to(気が進まない)",
+          "be supposed to(義務・予定)",
+          "was supposed to(〜のはずだった)",
+          "willing to(進んで〜する)",
+          "be supposed to(予定)",
+          "reluctant to=unwilling to",
+          "be apt to=tend to",
+          "be exposed to(さらされる)",
+          "be opposed to(反対している)",
+          "apt to=tend to",
+          "be exposed to",
+          "be opposed to"
+        ]
+      },
+      {
+        "medium": "of",
+        "smalls": [
+          "be independent of(〜から独立して)",
+          "be full of(〜でいっぱい)",
+          "be proud of + (完了)動名詞",
+          "be fond of(〜が好き)",
+          "be short of(〜が不足して)",
+          "be sure of(〜を確信している)",
+          "be conscious of(〜を意識している)",
+          "be ignorant of(〜を知らない)",
+          "be ashamed of(〜を恥じる)",
+          "be jealous of(〜をねたむ)",
+          "be composed of(〜から成る)",
+          "independent of(独立している)",
+          "proud of(誇りに思う)",
+          "independent of(独立)",
+          "be proud of",
+          "be fond of(好きである)",
+          "be free of(免れている)",
+          "be fond of",
+          "be short of(不足している)",
+          "fed up with=tired of"
+        ]
+      },
+      {
+        "medium": "about",
+        "smalls": [
+          "be anxious about(〜を心配して)",
+          "be concerned about(〜を心配して)",
+          "be crazy about(〜に夢中)",
+          "anxious about(= worried about:心配して)",
+          "be particular about(〜にうるさい)",
+          "anxious about(心配している)",
+          "anxious about=worried about",
+          "concerned about=worried about",
+          "concerned about(心配している)"
+        ]
+      },
+      {
+        "medium": "for",
+        "smalls": [
+          "be known for(〜で有名)",
+          "be grateful (to 人) for ~(〜に感謝)",
+          "be bound for(〜行きである)",
+          "be late for(〜に遅れる)",
+          "be responsible for(〜に責任がある)",
+          "grateful to+人 for+物",
+          "responsible for(責任がある)",
+          "be bound for(〜行きの)",
+          "be bound for",
+          "in charge of=responsible for",
+          "at a loss for(困惑して)"
+        ]
+      },
+      {
+        "medium": "その他",
+        "smalls": [
+          "be good at(〜が得意)",
+          "indifferent(= unconcerned:無関心な)",
+          "as good as(〜も同然)",
+          "be up against(= be faced with:直面する)",
+          "well off(= wealthy:裕福な)",
+          "good at(得意)",
+          "as good as(同然)",
+          "free from=without",
+          "similar to=resemble",
+          "responsible for=cause",
+          "well off=rich"
+        ]
+      },
+      {
+        "medium": "with",
+        "smalls": [
+          "become acquainted with(= meet:知り合いになる)",
+          "be confronted with(〜に直面している)",
+          "fed up with(= tired of:うんざりして)",
+          "be familiar with(〜をよく知っている)",
+          "be popular with(〜に人気)",
+          "be fed up with(うんざり)",
+          "fed up with",
+          "concerned with(関係する/従事する)",
+          "fed up with(うんざり)"
+        ]
+      },
+      {
+        "medium": "from",
+        "smalls": [
+          "free from(= without:〜がない)",
+          "be absent from(〜を欠席して)",
+          "be free from(免れる)",
+          "be free from"
+        ]
+      },
+      {
+        "medium": "in",
+        "smalls": [
+          "be involved in(〜に関わっている)",
+          "be absorbed in(〜に夢中)",
+          "take pride in(誇りに思う)",
+          "be absorbed in(没頭している)",
+          "be involved in(巻き込まれる)"
+        ]
+      },
+      {
+        "medium": "on",
+        "smalls": [
+          "be dependent on(〜に依存している)",
+          "be keen on(〜に熱心/好き)",
+          "be based on(〜に基づく)",
+          "dependent on/upon(依存している)"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "名詞中心のイディオム",
+    "mediums": [
+      {
+        "medium": "in",
+        "smalls": [
+          "in a hurry(急いで)",
+          "in time (for)(間に合って)",
+          "in person(じかに、直接)",
+          "(just) in case(念のため)",
+          "in advance(前もって)",
+          "in no time(すぐに)",
+          "in the long run(長い目で見れば)",
+          "in such a long time(= for ages:長い間)",
+          "in vain(むだに)",
+          "in detail(詳細に)",
+          "in haste(急いで、あわてて)",
+          "in earnest(本気で)",
+          "in private(内密に)",
+          "in fact(実際、それどころか)",
+          "in particular(特に)",
+          "in the way(邪魔で)",
+          "in a way(ある意味で)",
+          "in the end(結局)",
+          "in other words(言い換えれば)",
+          "in person(直接/本人で)",
+          "in case of(〜の場合に備えて)",
+          "in person=oneself",
+          "in time(間に合って)",
+          "in person=directly",
+          "in time for(〜に間に合って)",
+          "in person(対面で)",
+          "in case of(〜の場合)",
+          "in advance=beforehand",
+          "in no time=quickly",
+          "in advance=earlier",
+          "in advance(事前に)",
+          "in no time(あっという間に)",
+          "in the long run",
+          "in the end(最終的に)"
+        ]
+      },
+      {
+        "medium": "その他",
+        "smalls": [
+          "above all(= most importantly:とりわけ)",
+          "behind one's back(陰で)",
+          "second to none(誰にも劣らない)",
+          "ill at ease(落ち着かない)",
+          "the other way around(逆に)",
+          "from time to time(時々)",
+          "up in the air(未定で)",
+          "around the corner(間近で)",
+          "behind schedule(予定より遅れて)",
+          "of one's own accord(自発的に)",
+          "without fail(必ず)",
+          "bear fruit(実を結ぶ)",
+          "have ... in common(共通点がある)",
+          "before long(まもなく)",
+          "put 人 at ease(人を安心させる)",
+          "briefly(= in short:手短に)",
+          "get out of hand(手に負えなくなる)",
+          "incidentally(ところで)",
+          "point of view(観点)",
+          "above all=particularly",
+          "rising degrees(段階を経て)",
+          "ill at ease=uncomfortable",
+          "from time to time=occasionally",
+          "up in the air(未定)",
+          "have in common(共通している)",
+          "have in common",
+          "close at hand(すぐ近くに)"
+        ]
+      },
+      {
+        "medium": "on",
+        "smalls": [
+          "on end(連続して)",
+          "on purpose(わざと)",
+          "on one's own(独力で)",
+          "on the spot(その場で、即座に)",
+          "on the whole(概して)",
+          "on duty(勤務中で)",
+          "on second thought(考え直して)",
+          "on the contrary(それどころか、逆に)",
+          "on the other hand(他方では)",
+          "on end=continuously",
+          "on purpose(意図的に)",
+          "on purpose=intentionally",
+          "on purpose=deliberately",
+          "on purpose(故意に)",
+          "on one's own(自力で)",
+          "on the spot(その場で)",
+          "on the spot=promptly",
+          "on the spot=immediately",
+          "on schedule(予定通り)",
+          "on duty=at work",
+          "on duty=working",
+          "on second thought(考え直すと)",
+          "on the contrary(逆に)",
+          "on the contrary"
+        ]
+      },
+      {
+        "medium": "by",
+        "smalls": [
+          "by degrees(= gradually:次第に)",
+          "by chance(偶然に)",
+          "by mistake(誤って)",
+          "by birth(生まれは)",
+          "by any chance(ひょっとして)",
+          "by nature(生まれつき)",
+          "by turns(交代で)",
+          "By all means(ぜひどうぞ、もちろん)",
+          "by degrees(= little by little:少しずつ)",
+          "by degrees=gradually",
+          "by chance=accidentally",
+          "by mistake",
+          "by any chance(もしかして)",
+          "by all means(ぜひとも)",
+          "by all means(どうぞ)"
+        ]
+      },
+      {
+        "medium": "at",
+        "smalls": [
+          "at length(長々と)",
+          "at all costs(何としても)",
+          "at a glance(一目で)",
+          "at hand(手近に)",
+          "at home (in/with)(精通して/くつろいで)",
+          "at large(逃走中で)",
+          "at a loss(途方に暮れて)",
+          "at hand(手元に、すぐ利用できる)",
+          "at any cost(何としても)",
+          "at length(詳細に/長々と)",
+          "at a loss for words(言葉に詰まる)",
+          "at ease(くつろいで)",
+          "at all costs(どんなことをしても)",
+          "at all costs",
+          "at hand=close to me"
+        ]
+      },
+      {
+        "medium": "out",
+        "smalls": [
+          "out of order(故障して)",
+          "out of the question(不可能、論外)",
+          "out of the blue(突然、出し抜けに)",
+          "out of reach(手の届かない)",
+          "out of date(時代遅れの)",
+          "out of order(故障中)",
+          "out of order=broken",
+          "out of order",
+          "out of the question(問題外)",
+          "out of the blue=unexpectedly",
+          "out of date=old/outdated"
+        ]
+      },
+      {
+        "medium": "for",
+        "smalls": [
+          "for good(永久に、きっぱり)",
+          "for the time being(当分の間)",
+          "for sure(確かに)",
+          "for good=permanently",
+          "for good=forever",
+          "for good(永久に)",
+          "for the time being(当分)",
+          "for the time being",
+          "for the time being=temporarily",
+          "for the time being=for now"
+        ]
+      },
+      {
+        "medium": "under",
+        "smalls": [
+          "under way(= in progress:進行中で)",
+          "under control(制御されて)",
+          "under construction(工事中で)",
+          "under way=in progress",
+          "under way(進行中)",
+          "under construction(工事中)",
+          "under discussion(議論中)"
+        ]
+      },
+      {
+        "medium": "all",
+        "smalls": [
+          "all at once(突然)",
+          "all the same(それでもなお)",
+          "all the way(はるばる)",
+          "all of a sudden(突然)",
+          "all at once=suddenly",
+          "all the same=nevertheless"
+        ]
+      },
+      {
+        "medium": "to",
+        "smalls": [
+          "to some extent(ある程度)",
+          "to the point(的を射た)",
+          "to the contrary(それと反対の)",
+          "to the point(要を得ている)",
+          "to the point=relevant"
+        ]
+      },
+      {
+        "medium": "as",
+        "smalls": [
+          "as a rule(概して、通例)",
+          "as far as I'm concerned(私に関する限り)",
+          "as a matter of fact(実のところ)",
+          "as a rule=generally"
+        ]
+      },
+      {
+        "medium": "once",
+        "smalls": [
+          "once in a while(= sometimes:時々)",
+          "once in a while(時々)",
+          "once in a while=sometimes",
+          "once in a while=occasionally"
+        ]
+      }
+    ]
+  },
+  {
+    "large": "動詞中心のイディオム",
+    "mediums": [
+      {
+        "medium": "その他",
+        "smalls": [
+          "suffer from(〜に苦しむ)",
+          "refrain from(〜を控える)",
+          "hear from(〜から連絡をもらう)",
+          "contribute to(〜に貢献する)",
+          "try on(試着する)",
+          "speak ill of(〜を悪く言う)",
+          "believe in(〜の存在/価値を信じる)",
+          "depend on(〜次第である/頼る)",
+          "count on(〜を頼りにする)",
+          "cope with(〜に対処する)",
+          "die of(〜が原因で死ぬ)",
+          "die out(= perish:絶滅する)",
+          "send for(〜を呼びに行かせる)",
+          "major in(〜を専攻する)",
+          "specialize in(〜を専門とする)",
+          "work out(解く/うまくいく)",
+          "rule out(= exclude:除外する)",
+          "point out(指摘する)",
+          "insist on(〜を強く主張する)",
+          "concentrate on(〜に集中する)",
+          "amount to(結局〜になる/総計〜になる)",
+          "telephone(= call up:電話する)",
+          "care for(= love/like:好む)",
+          "arrive at(〜に到着する)",
+          "show up(= come/appear:現れる)",
+          "hang up(= end a call:電話を切る)",
+          "decide on(〜に決める)",
+          "cut down (on)(= reduce:減らす)",
+          "think over(熟考する)",
+          "kill time(暇をつぶす)",
+          "bear in mind(= consider:心に留める)",
+          "pay a visit (to)(訪問する)",
+          "show off(= display:見せびらかす)",
+          "by heart(暗記して)",
+          "leave out(除外する、抜かす)",
+          "lie in(〜にある)",
+          "rely on(頼る)",
+          "sum up(要約する)",
+          "let 人 down(= disappoint:失望させる)",
+          "swear at(〜をののしる)",
+          "agree with(体・気候が合う)",
+          "dispense with(= do without:〜なしで済ます)",
+          "stick to(〜を守る/固守する)",
+          "It occurs to 人 that(〜とふと思い浮かぶ)",
+          "approve of(〜に賛成する/認める)",
+          "refer to(言及する)",
+          "stare at(じっと見つめる)",
+          "persist in doing(〜し続ける)",
+          "wait on 人(= serve:給仕する)",
+          "pay for(〜の代金を払う/償う)",
+          "adapt to(〜に適応する)",
+          "add to(= increase:増す)",
+          "answer for(= be responsible for:責任を負う)",
+          "lend itself to(= make for:〜に適する)",
+          "focus on(= care about:重視する)",
+          "stay up(寝ずに起きている)",
+          "Watch out(気をつけて)",
+          "pass away(= die:亡くなる)",
+          "wear out(すり減る、使い古す)",
+          "drop in at + 場所(= call at:立ち寄る)",
+          "brush up (on)(磨き直す、復習する)",
+          "resort to(= turn to:(手段に)訴える/頼る)",
+          "distinguish(= tell:区別する)",
+          "order ... from(〜から注文する)",
+          "congratulate 人 on(〜のことで人を祝う)",
+          "exchange A for B(AをBと交換する)",
+          "name A after B(BにちなんでAを名づける)",
+          "play a role (in)(役割を果たす)",
+          "burst into tears(突然泣き出す)",
+          "rise to one's feet(= stand up:立ち上がる)",
+          "pass on (to)(伝える、受け継がせる)",
+          "leave nothing to be desired(申し分ない)",
+          "leave much to be desired(改善の余地が大いにある)",
+          "dispense with(省く、なしで済ます)",
+          "refrain from+動名詞(控える)",
+          "hear from(連絡をもらう)",
+          "familiar with(精通する)",
+          "contribute to(寄与する)",
+          "in search of=look for",
+          "I'm going to miss you",
+          "count on=rely on",
+          "believe in(存在を信じる)",
+          "depend on(次第)",
+          "count on=depend on",
+          "believe in(価値を信じる)",
+          "depend on(頼る)",
+          "cope with(対処する)",
+          "die of(〜で死ぬ)",
+          "major in(専攻する)",
+          "send for(呼びにやる)",
+          "work out(解決する)",
+          "insist on+所有格+動名詞",
+          "rule out=exclude",
+          "rule out(除外する)",
+          "insist on+動名詞",
+          "concentrate on(集中する)",
+          "Would you care for ~?(〜はいかが)",
+          "arrive at(地点に到着)",
+          "What's up?(どうしたの)",
+          "cut in on(割り込む)",
+          "show up=appear",
+          "hang up(電話を切る)",
+          "bear in mind(心に留める)",
+          "pay a visit(訪問する)",
+          "learn by heart(暗記する)",
+          "sum up=summarize",
+          "rely on=count on",
+          "wait on=serve",
+          "It occurred to 人 that(思いつく)",
+          "pass away=die",
+          "drop in on=visit",
+          "drop in=visit"
+        ]
+      },
+      {
+        "medium": "take",
+        "smalls": [
+          "take off(脱ぐ)",
+          "take on(引き受ける)",
+          "take after(= resemble:〜に似ている)",
+          "take off(離陸する)",
+          "take A for B(AをBだと(誤って)思う)",
+          "take place(行われる、起こる)",
+          "take advantage of(〜を利用する)",
+          "take ... for granted(〜を当然と思う)",
+          "take in(= comprehend:理解する)",
+          "take over(引き継ぐ)",
+          "take up(始める)",
+          "take up(占める)",
+          "take on(帯びる)",
+          "take back(= withdraw:撤回する)",
+          "take into account(= consider:考慮する)",
+          "take part in(= participate in:参加する)",
+          "take to(好きになる、なつく)",
+          "take one's place(〜の代わりをする)",
+          "take effect(= work:効き目が現れる)",
+          "take ... into consideration(〜を考慮に入れる)",
+          "take one's breath away(息をのませる)",
+          "take on=undertake",
+          "take after=resemble",
+          "take after(親族に似る)",
+          "take place=occur",
+          "take place=happen",
+          "take place(開催される)",
+          "take advantage of(利用する)",
+          "take advantage of",
+          "take O for granted(当然視する)",
+          "take in(理解する/吸収する)",
+          "take up=occupy(占める)",
+          "take into account=consider",
+          "take into account(考慮する)",
+          "take part in=participate in",
+          "take part in=join",
+          "take part in(参加する)"
+        ]
+      },
+      {
+        "medium": "make",
+        "smalls": [
+          "make up one's mind(= decide:決心する)",
+          "make up(= invent:でっち上げる)",
+          "make out(= understand:理解する/見分ける)",
+          "make up for(= compensate:埋め合わせる)",
+          "make a point of doing(必ず〜する)",
+          "make sense(意味をなす/理にかなう)",
+          "make fun of(= mock:からかう)",
+          "make the most of(最大限に活用する)",
+          "make light of(軽視する)",
+          "make much of(重視する/ちやほやする)",
+          "make way (for)(道を譲る)",
+          "make faces(変な顔をする)",
+          "make sure (that)(必ず〜であるよう確かめる)",
+          "make up one's mind=decide",
+          "make use of=take advantage of",
+          "make up=invent(でっち上げる)",
+          "make up(占める)",
+          "make out=understand",
+          "make out(理解する)",
+          "make out(聞き取る/理解する)",
+          "make up for(埋め合わせる)",
+          "make up for=compensate for",
+          "make up for(補う)",
+          "make sense(意味が通る)",
+          "make sense(理解できる)",
+          "make sense of(理解する)",
+          "make it a rule to=in the habit of",
+          "make sense",
+          "make fun of(からかう)",
+          "make fun of=ridicule",
+          "make fun of=mock",
+          "make the most of(最大限活用する)",
+          "make the most of"
+        ]
+      },
+      {
+        "medium": "come",
+        "smalls": [
+          "come up with(= think of:思いつく)",
+          "come across(偶然見つける)",
+          "come down with(= catch:(病気に)かかる)",
+          "come to terms with(折り合いをつける/受け入れる)",
+          "come by(手に入れる)",
+          "come to(意識を取り戻す)",
+          "come out(出版される、世に出る)",
+          "come about(起こる、生じる)",
+          "come of age(成人する)",
+          "come into existence(誕生する、生まれる)",
+          "come up with(思いつく)",
+          "come down with(病気にかかる)",
+          "come to terms with(受け入れる)",
+          "come to terms with",
+          "come to terms with=accept",
+          "come by=get(入手する)",
+          "come by=obtain",
+          "come by(入手する)",
+          "come of age",
+          "come of age=become an adult"
+        ]
+      },
+      {
+        "medium": "get",
+        "smalls": [
+          "get over(克服する、立ち直る)",
+          "get along (with)(仲良くやる)",
+          "get through with(= finish:終える)",
+          "get in touch with(〜と連絡を取る)",
+          "get rid of(〜を取り除く/処分する)",
+          "get on with(〜を進める/続ける)",
+          "get on one's nerves(神経に障る)",
+          "get away(離れる、逃れる)",
+          "get run over(車にひかれる)",
+          "get over=overcome",
+          "get over(病気から回復する)",
+          "get over(乗り越える)",
+          "get along with(仲良くやる)",
+          "get along with",
+          "get through with=finish",
+          "get in touch with=contact",
+          "get rid of=remove",
+          "get rid of=eliminate",
+          "get on one's nerves(イラつかせる)",
+          "get on one's nerves=irritate"
+        ]
+      },
+      {
+        "medium": "put",
+        "smalls": [
+          "put off(延期する)",
+          "put on(身につける)",
+          "put up with(我慢する)",
+          "put away(= clean up:片付ける)",
+          "put aside(取っておく、蓄える)",
+          "put out(消す)",
+          "put ... into practice(実行に移す)",
+          "put 人 up(= let stay:泊める)",
+          "put on weight(体重が増える)",
+          "put an end to(終わらせる)",
+          "put off+動名詞(延期する)",
+          "put off=postpone",
+          "put up with=tolerate",
+          "put out=extinguish",
+          "put aside=save(貯える)",
+          "put aside=save",
+          "put into practice(実行する)"
+        ]
+      },
+      {
+        "medium": "look",
+        "smalls": [
+          "look up(調べる)",
+          "look after(世話をする)",
+          "look for(〜を探す)",
+          "look over(ざっと調べる、見直す)",
+          "look into(調査する)",
+          "look out for(注意する)",
+          "look up to(尊敬する)",
+          "look down on(見下す)",
+          "look up(辞書で調べる)",
+          "look forward to+動名詞",
+          "look forward to",
+          "look for(探す)",
+          "look over=examine(目を通す)",
+          "look over=review",
+          "look out for(用心する)",
+          "look up to=respect"
+        ]
+      },
+      {
+        "medium": "turn",
+        "smalls": [
+          "turn down(断る、却下する)",
+          "turn off(消す、止める)",
+          "turn up(= raise:(音量を)上げる)",
+          "turn out (to be)(= prove:結局〜とわかる)",
+          "turn in(提出する)",
+          "turn up(現れる)",
+          "turn to 人 for(人に〜を求める/頼る)",
+          "turn down(却下する)",
+          "turn down=refuse",
+          "turn down(断る)",
+          "turn off(電源を切る)",
+          "turn out(結果〜となる)",
+          "turn out to be(判明する)",
+          "turn out to be",
+          "turn out to be=prove to be",
+          "turn in=submit",
+          "turn up=appear"
+        ]
+      },
+      {
+        "medium": "keep",
+        "smalls": [
+          "keep up(続ける、維持する)",
+          "keep up with(遅れずについていく)",
+          "keep an eye on(= watch:見張る)",
+          "keep on doing(= continue:〜し続ける)",
+          "keep regular hours(規則正しい生活をする)",
+          "keep off(近づかない、立ち入らない)",
+          "keep ... in mind(心に留めておく)",
+          "keep one's word(約束を守る)",
+          "keep in touch with(連絡を取り合う)",
+          "keep up with(ついていく)",
+          "keep up with(最新を追う)",
+          "keep up with(ペースについていく)",
+          "keep an eye on(見守る)",
+          "keep on+動名詞(し続ける)",
+          "keep in mind(心に留める)",
+          "keep in mind(覚えておく)"
+        ]
+      },
+      {
+        "medium": "stand",
+        "smalls": [
+          "stand for(〜を表す/略す)",
+          "stand by(〜を守る/支持する)",
+          "stand out(目立つ)",
+          "stand up for(= defend:擁護する)",
+          "stand for=represent",
+          "stand for(略語の意味)",
+          "stand by=support",
+          "stand by(支持し続ける)"
+        ]
+      },
+      {
+        "medium": "run",
+        "smalls": [
+          "run into(偶然出会う)",
+          "run out (of)(尽きる、使い果たす)",
+          "run across(= meet by chance:偶然出会う)",
+          "run for(立候補する)",
+          "run short of(〜が不足する)",
+          "run across=happen to meet",
+          "run into=come across",
+          "run out of(使い果たす)",
+          "run out of",
+          "run low on(残り少ない)"
+        ]
+      },
+      {
+        "medium": "call",
+        "smalls": [
+          "call off(中止する)",
+          "call for(〜を必要とする/要求する)",
+          "call on 人(= visit:人を訪問する)",
+          "call off=cancel",
+          "call off",
+          "call for=deserve(値する)",
+          "call for=need",
+          "call on=visit",
+          "call on=ask(求める)"
+        ]
+      },
+      {
+        "medium": "carry",
+        "smalls": [
+          "carry out(実行する)",
+          "carry on(続ける)",
+          "carry out=perform",
+          "carry out(実施する)",
+          "carry on=continue"
+        ]
+      },
+      {
+        "medium": "do",
+        "smalls": [
+          "do away with(= abolish:廃止する)",
+          "do one's part(自分の役割を果たす)",
+          "do away with(廃止する)",
+          "do away with=put an end to",
+          "do away with=abolish",
+          "do away with(なくす)",
+          "do without(なしで済ます)",
+          "do without"
+        ]
+      },
+      {
+        "medium": "give",
+        "smalls": [
+          "give in (to)(屈する)",
+          "give rise to(引き起こす)",
+          "give way (to)(崩れる、屈する)",
+          "give birth to(出産する)",
+          "give in to(屈する)",
+          "give way to=yield",
+          "give way to(道を譲る)"
+        ]
+      },
+      {
+        "medium": "go",
+        "smalls": [
+          "go over(調べる、見直す)",
+          "go through(経験する/通過する)",
+          "go off((目覚ましが)鳴る)",
+          "go through=experience",
+          "go over=examine(調べる)"
+        ]
+      },
+      {
+        "medium": "set",
+        "smalls": [
+          "set in(= begin:(季節などが)始まる)",
+          "set about(= start:〜し始める)",
+          "set up(設立する)",
+          "set out(= start:出発する)",
+          "set off(= leave:出発する)",
+          "set in(季節・状態が始まる)",
+          "set about=begin",
+          "set about+動名詞=begin",
+          "set about+動名詞(取りかかる)"
+        ]
+      },
+      {
+        "medium": "bring",
+        "smalls": [
+          "bring up(育てる)",
+          "bring about(= lead to:引き起こす)",
+          "bring home to 人(痛感させる)",
+          "bring up=raise(育てる)",
+          "bring about=cause",
+          "bring about(もたらす)",
+          "bring about(引き起こす)"
+        ]
+      },
+      {
+        "medium": "break",
+        "smalls": [
+          "break into(〜に押し入る)",
+          "break down(故障する)",
+          "break up(= finish:解散する、終わる)",
+          "break into(押し入る)",
+          "break in on=interrupt",
+          "break up(散会する)",
+          "break up=be over"
+        ]
+      },
+      {
+        "medium": "catch",
+        "smalls": [
+          "catch sight of(〜を見つける/見かける)",
+          "catch up with(追いつく)",
+          "catch fire(火がつく)",
+          "catch sight of=see"
+        ]
+      },
+      {
+        "medium": "fall",
+        "smalls": [
+          "fall on(〜(曜日・日)に当たる)",
+          "fall short of(〜に達しない)",
+          "fall behind(遅れる)",
+          "fall behind(遅れをとる)",
+          "fall on(日にちが〜に当たる)",
+          "fall short of(及ばない)"
+        ]
+      },
+      {
+        "medium": "figure",
+        "smalls": [
+          "figure out(理解する、解明する)",
+          "figure out=understand",
+          "figure out(突き止める)",
+          "figure out=interpret",
+          "figure out(理解する)"
+        ]
+      },
+      {
+        "medium": "hold",
+        "smalls": [
+          "hold back(抑える、こらえる)",
+          "hold one's breath(息を止める)",
+          "hold good(= be valid:有効である)",
+          "hold back tears(涙をこらえる)",
+          "hold the line(電話を切らずに待つ)",
+          "hold the line"
+        ]
+      },
+      {
+        "medium": "see",
+        "smalls": [
+          "see 人 off(〜を見送る)",
+          "see to it that(必ず〜するよう取り計らう)",
+          "see off(見送る)",
+          "see to it that(取り計らう)",
+          "see to it that"
+        ]
+      },
+      {
+        "medium": "tell",
+        "smalls": [
+          "tell A from B(AとBを区別する)",
+          "tell on(= affect:こたえる、悪影響を及ぼす)",
+          "tell ... apart(見分ける)",
+          "tell A from B(見分ける)",
+          "tell A from B(区別する)"
+        ]
+      },
+      {
+        "medium": "have",
+        "smalls": [
+          "have no choice but to do(〜するしかない)",
+          "have second thoughts(考え直す、迷いが生じる)",
+          "have one's own way(思いどおりにする)",
+          "have an effect on(〜に影響を及ぼす)",
+          "have words (with)(= quarrel:口論する)",
+          "have no choice but to(〜するしかない)"
+        ]
+      },
+      {
+        "medium": "pick",
+        "smalls": [
+          "pick up(車で迎えに行く)",
+          "pick out(選び出す)",
+          "pick up(迎えに行く)",
+          "pick out(選び出す/指摘する)"
+        ]
+      },
+      {
+        "medium": "succeed",
+        "smalls": [
+          "succeed in doing(〜に成功する)",
+          "succeed in+動名詞",
+          "succeed in(〜に成功する)"
+        ]
+      },
+      {
+        "medium": "account",
+        "smalls": [
+          "account for(占める/説明する)",
+          "account for=explain",
+          "account for(占める)"
+        ]
+      },
+      {
+        "medium": "ask",
+        "smalls": [
+          "ask for(〜を求める)",
+          "ask 人 for(人に〜を求める)",
+          "ask 人 a favor(頼みごとをする)",
+          "ask for=request"
+        ]
+      },
+      {
+        "medium": "be",
+        "smalls": [
+          "be familiar with(よく知っている)",
+          "be familiar with",
+          "be composed of(構成される)",
+          "be composed of=consist of",
+          "be likely to+動詞原形(可能性高い)"
+        ]
+      },
+      {
+        "medium": "deal",
+        "smalls": [
+          "deal with(= handle:対処する)",
+          "deal with=cope with",
+          "deal with=handle",
+          "deal with(対処する)"
+        ]
+      },
+      {
+        "medium": "fill",
+        "smalls": [
+          "fill in/out(記入する)",
+          "fill out=complete",
+          "fill out(記入する)"
+        ]
+      },
+      {
+        "medium": "apply",
+        "smalls": [
+          "apply for(〜に応募する)",
+          "apply for(応募する)",
+          "apply for(申し込む)",
+          "apply to(機関に申し込む)"
+        ]
+      },
+      {
+        "medium": "consist",
+        "smalls": [
+          "consist of(〜から成る)",
+          "consist of(構成される)",
+          "consist in(本質が〜にある)"
+        ]
+      },
+      {
+        "medium": "find",
+        "smalls": [
+          "find fault with(〜のあらさがしをする)",
+          "find fault with(あら探しをする)",
+          "find fault with=criticize"
+        ]
+      },
+      {
+        "medium": "hand",
+        "smalls": [
+          "hand in(提出する)",
+          "hand in=submit"
+        ]
+      },
+      {
+        "medium": "lay",
+        "smalls": [
+          "lay off(= dismiss:解雇する)",
+          "lay aside(取っておく、蓄える)",
+          "lay off(解雇する)",
+          "lay aside(蓄える)"
+        ]
+      },
+      {
+        "medium": "live",
+        "smalls": [
+          "live up to(〜に応える)",
+          "live on(〜で生活する)",
+          "live up to(期待に応える)",
+          "live up to=meet expectations"
+        ]
+      },
+      {
+        "medium": "lose",
+        "smalls": [
+          "lose one's temper(かっとなる)",
+          "lose sight of(見失う)",
+          "lose face(= feel ashamed:面目を失う)"
+        ]
+      },
+      {
+        "medium": "pull",
+        "smalls": [
+          "pull up((車が)停止する)",
+          "pull one's leg(= joke:からかう)",
+          "pull up(停車する)",
+          "pull up=stop"
+        ]
+      },
+      {
+        "medium": "result",
+        "smalls": [
+          "result from(〜が原因で生じる)",
+          "result in(〜という結果になる)",
+          "result in(という結果になる)"
+        ]
+      }
+    ]
+  }
+]
