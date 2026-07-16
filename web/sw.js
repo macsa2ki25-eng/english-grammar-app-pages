@@ -1,9 +1,10 @@
 // オフライン対応。アプリ本体(シェル+問題データ)をキャッシュする。
 // Firebase(gstatic)や Firestore へのリクエストはキャッシュせずネット経由。
-const CACHE = 'spiral-grammar-v2';
+const CACHE = 'spiral-grammar-v3';
 const ASSETS = [
   './',
   './index.html',
+  './teacher.html',
   './manifest.webmanifest',
   './css/styles.css',
   './icons/icon.png',
@@ -23,6 +24,8 @@ const ASSETS = [
   './js/state.js',
   './js/cloud.js',
   './js/fx.js',
+  './js/helpui.js',
+  './js/teacher.js',
   './js/screens/home.js',
   './js/screens/quiz.js',
   './js/screens/trail.js',

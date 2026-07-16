@@ -11,6 +11,7 @@ import {
   getRecentAnswers, getRecentWrongRanked,
 } from '../store.js';
 import { hapticLight } from '../fx.js';
+import { helpButton } from '../helpui.js';
 
 function appbar(title) {
   return el('div', { class: 'appbar' }, [
@@ -89,9 +90,16 @@ export function questionCard(q, opts = {}) {
   noteWrap.appendChild(noteView);
   card.appendChild(noteWrap);
 
+  const actions = el('div', { class: 'row', style: { gap: '8px', marginTop: '8px', flexWrap: 'wrap' } });
   if (opts.onSimilar) {
-    card.appendChild(el('button', { class: 'chip', style: { marginTop: '8px' }, onclick: opts.onSimilar, text: '🔀 似た問題に挑戦' }));
+    actions.appendChild(el('button', { class: 'chip', onclick: opts.onSimilar, text: '🔀 似た問題に挑戦' }));
   }
+  const help = helpButton(q.id);
+  help.style.width = 'auto';
+  help.style.flex = '1';
+  help.style.padding = '10px 14px';
+  actions.appendChild(help);
+  card.appendChild(actions);
   return card;
 }
 

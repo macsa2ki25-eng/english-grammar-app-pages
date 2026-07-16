@@ -27,6 +27,7 @@ export const state = {
   bookmarkedIds: new Set(),
   notes: new Map(),
   resume: null,
+  helpRequestedIds: new Set(),
 };
 
 const listeners = new Set();
@@ -88,7 +89,22 @@ export async function refresh() {
 export async function initState() {
   state.settings = await loadSettings();
   await refresh();
+  reloadHelpRequests();
   state.ready = true;
+  emit();
+}
+
+export async function reloadHelpRequests() {
+  if (!state.settings?.cloudEnabled) { state.helpRequestedIds = new Set(); emit(); return; }
+  const { getMyHelpRequests } = await import('./cloud.js');
+  state.helpRequestedIds = await getMyHelpRequests().catch(() => new Set());
+  emit();
+}
+
+export function setHelpRequested(questionId, on) {
+  const next = new Set(state.helpRequestedIds);
+  if (on) next.add(questionId); else next.delete(questionId);
+  state.helpRequestedIds = next;
   emit();
 }
 

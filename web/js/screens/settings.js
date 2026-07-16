@@ -1,5 +1,5 @@
 import { el, render } from '../ui.js';
-import { state, updateSettings, refresh } from '../state.js';
+import { state, updateSettings, refresh, reloadHelpRequests } from '../state.js';
 import { clearStudyData } from '../store.js';
 import {
   isFirebaseConfigured, MAX_GROUPS, ensureAnonUser, getCloudProfile,
@@ -72,7 +72,9 @@ export function SettingsScreen() {
       const u = await ensureAnonUser().catch(() => null);
       if (!u) { alert('クラウドに接続できません。ネット接続を確認してください。'); return; }
     }
-    set({ cloudEnabled: v });
+    await updateSettings({ ...state.settings, cloudEnabled: v });
+    reloadHelpRequests();
+    render();
   }));
   if (s.cloudEnabled) {
     const cloudBody = el('div');
@@ -93,8 +95,16 @@ export function SettingsScreen() {
   // アプリについて
   wrap.appendChild(el('div', { class: 'section-label', text: 'このアプリ' }));
   wrap.appendChild(el('div', { class: 'card' }, [
-    el('div', { class: 'card-sub', text: 'スパイラル英文法 Web版 v1.1' }),
+    el('div', { class: 'card-sub', text: 'スパイラル英文法 Web版 v1.2' }),
     el('div', { class: 'card-sub', style: { marginTop: '6px' }, text: 'ブラウザのメニューから「ホーム画面に追加」すると、アプリのように使えてオフラインでも動きます。' }),
+  ]));
+
+  wrap.appendChild(el('div', { class: 'section-label', text: '先生用' }));
+  wrap.appendChild(el('div', { class: 'card' }, [
+    el('a', { href: './teacher.html', style: { textDecoration: 'none' } }, [
+      el('div', { class: 'btn secondary', text: '🧑‍🏫 補習リクエスト一覧（先生用）' }),
+    ]),
+    el('div', { class: 'card-sub', style: { marginTop: '8px' }, text: '生徒が「補習で解説してほしい」を押した問題の一覧・印刷ページです（パスコードあり）。' }),
   ]));
 
   wrap.appendChild(el('div', { style: { height: '24px' } }));

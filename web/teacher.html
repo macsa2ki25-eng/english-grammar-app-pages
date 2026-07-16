@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>補習リクエスト一覧 — スパイラル英文法</title>
+  <link rel="icon" href="./icons/icon-192.png" />
+  <style>
+    :root {
+      --primary: #15803D; --test: #0891B2; --test-dark: #0E7490; --test-tint: #E0F7FA;
+      --bg: #F0FDF4; --surface: #fff; --border: #D7E5DC; --muted: #6B7280; --text: #14302A;
+      --correct: #16A34A; --correct-bg: #DCFCE7; --gold: #F59E0B;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: -apple-system, "Hiragino Sans", "Noto Sans JP", system-ui, sans-serif; background: var(--bg); color: var(--text); }
+    #teacher { max-width: 900px; margin: 0 auto; padding: 16px; }
+    .muted { color: var(--muted); }
+    .grow { flex: 1; }
+    .loading { text-align: center; padding: 60px 20px; color: var(--muted); }
+
+    /* パスコード */
+    .gate { min-height: 80vh; display: flex; align-items: center; justify-content: center; }
+    .gate-box { background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 28px; text-align: center; width: 320px; box-shadow: 0 6px 24px rgba(0,0,0,.08); }
+    .gate-box h2 { margin: 10px 0 4px; }
+    .t-input { width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: 12px; font-size: 16px; margin-top: 12px; background: #fff; color: var(--text); }
+    select.t-input { margin-top: 0; }
+    .t-btn { border: none; border-radius: 12px; padding: 11px 16px; font-weight: 800; background: var(--test); color: #fff; cursor: pointer; font-size: 15px; }
+    .t-btn.ghost { background: var(--surface); color: var(--test-dark); border: 1.5px solid var(--test); }
+    .gate-box .t-btn { width: 100%; margin-top: 12px; }
+
+    /* コントロール */
+    .controls { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 14px 16px; margin-bottom: 16px; position: sticky; top: 8px; z-index: 5; }
+    .ctitle { font-weight: 900; font-size: 18px; margin-bottom: 10px; }
+    .ctrl-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+    .ck { display: inline-flex; align-items: center; gap: 4px; font-size: 13px; font-weight: 700; color: var(--muted); }
+
+    .t-list { display: flex; flex-direction: column; gap: 14px; }
+    .qcard { background: var(--surface); border: 1px solid var(--border); border-left: 6px solid var(--test); border-radius: 14px; padding: 16px; }
+    .qcard.handled { opacity: .6; border-left-color: var(--muted); }
+    .qhead { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+    .qnum { width: 34px; height: 34px; border-radius: 999px; background: var(--test); color: #fff; font-weight: 900; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .qcat { font-size: 12px; color: var(--muted); font-weight: 700; }
+    .qcount { font-size: 12px; font-weight: 800; color: var(--test-dark); background: var(--test-tint); padding: 4px 10px; border-radius: 999px; }
+    .qcount.done { color: var(--muted); background: #eee; }
+    .qtext { font-size: 18px; font-weight: 700; line-height: 1.6; margin-bottom: 10px; }
+    .blank { display: inline-block; min-width: 70px; border-bottom: 2px solid var(--muted); margin: 0 4px; }
+    .qchoices { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-bottom: 10px; }
+    .qchoice { padding: 8px 10px; border: 1px solid var(--border); border-radius: 8px; font-size: 15px; background: #fafafa; }
+    .qchoice.correct { background: var(--correct-bg); border-color: var(--correct); font-weight: 800; }
+    .qblock { font-size: 14px; line-height: 1.7; margin: 6px 0; }
+    .qblock b { color: var(--primary); }
+    .qexp { white-space: pre-wrap; margin-top: 2px; }
+    .qcolumn { background: #FEF9E7; border: 1px solid #F5E6B8; border-radius: 10px; padding: 10px; font-size: 13px; margin-top: 6px; white-space: pre-wrap; }
+    .requesters { margin-top: 10px; font-size: 13px; background: var(--test-tint); border-radius: 10px; padding: 8px 10px; }
+    .requesters b { color: var(--test-dark); }
+
+    .print-only, .print-head { display: none; }
+
+    @media print {
+      body { background: #fff; }
+      #teacher { max-width: none; padding: 0; }
+      .no-print { display: none !important; }
+      .print-only { display: block; }
+      .print-head { display: block; text-align: center; margin-bottom: 12px; }
+      .print-head h1 { font-size: 20px; margin: 0; }
+      .t-list { gap: 0; }
+      .qcard { border: none; border-bottom: 1.5px dashed #bbb; border-radius: 0; padding: 14px 0; break-inside: avoid; page-break-inside: avoid; }
+      .qchoice { background: #fff; }
+      .qchoice.correct { background: #fff; border: 1.5px solid #333; }
+      .requesters { background: #f3f3f3; }
+      body.hide-print-names .requesters { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <div id="teacher"></div>
+  <script type="module" src="./js/teacher.js"></script>
+</body>
+</html>

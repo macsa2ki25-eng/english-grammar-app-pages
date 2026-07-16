@@ -271,3 +271,72 @@ export async function fetchGroupLeaderboard(code, kind, topN = 50) {
   }
   return [...collected.values()].sort((a, b) => b.value - a.value).slice(0, topN);
 }
+
+// ── 補習リクエスト(Web版限定) ──
+// helpRequests/{uid}_{questionId}: { questionId, uid, nickname, groupCodes, handled, createdAt }
+export async function getMyHelpRequests() {
+  const f = await ensureFb();
+  const user = await ensureAnonUser();
+  if (!f || !user) return new Set();
+  const { collection, query, where, getDocs } = f.fsMod;
+  const ids = new Set();
+  try {
+    (await getDocs(query(collection(f.db, 'helpRequests'), where('uid', '==', user.uid)))).forEach((d) => {
+      const data = d.data();
+      if (data.questionId) ids.add(data.questionId);
+    });
+  } catch {}
+  return ids;
+}
+
+export async function requestHelp(questionId) {
+  const f = await ensureFb();
+  const user = await ensureAnonUser();
+  if (!f || !user) return { ok: false, reason: 'offline' };
+  const profile = await getCloudProfile();
+  const nickname = profile?.nickname?.trim();
+  if (!nickname) return { ok: false, reason: 'no-nickname' };
+  const { doc, setDoc, serverTimestamp } = f.fsMod;
+  const codes = await readMyCodes(f, user.uid);
+  await setDoc(doc(f.db, 'helpRequests', `${user.uid}_${questionId}`), {
+    questionId, uid: user.uid, nickname, groupCodes: codes,
+    handled: false, createdAt: serverTimestamp(),
+  });
+  return { ok: true };
+}
+
+export async function cancelHelp(questionId) {
+  const f = await ensureFb();
+  const user = await ensureAnonUser();
+  if (!f || !user) return false;
+  const { doc, deleteDoc } = f.fsMod;
+  await deleteDoc(doc(f.db, 'helpRequests', `${user.uid}_${questionId}`));
+  return true;
+}
+
+// 先生用: 全リクエストを取得
+export async function listHelpRequests() {
+  const f = await ensureFb();
+  const user = await ensureAnonUser();
+  if (!f || !user) return [];
+  const { collection, getDocs } = f.fsMod;
+  const out = [];
+  (await getDocs(collection(f.db, 'helpRequests'))).forEach((d) => {
+    const data = d.data();
+    out.push({
+      id: d.id, questionId: data.questionId, uid: data.uid,
+      nickname: data.nickname ?? '匿名', groupCodes: data.groupCodes ?? [],
+      handled: !!data.handled, createdAt: data.createdAt?.toMillis?.() ?? 0,
+    });
+  });
+  return out;
+}
+
+export async function markHelpHandled(id, handled) {
+  const f = await ensureFb();
+  await ensureAnonUser();
+  if (!f) return false;
+  const { doc, updateDoc } = f.fsMod;
+  await updateDoc(doc(f.db, 'helpRequests', id), { handled });
+  return true;
+}

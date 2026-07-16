@@ -6,6 +6,7 @@ import {
   playCorrect, playWrong, playLevelUp, speakEnglish,
   hapticSuccess, hapticError, hapticWarning, hapticHeavy, hapticLight,
 } from '../fx.js';
+import { helpButton } from '../helpui.js';
 
 const LABELS = ['①', '②', '③', '④'];
 
@@ -208,6 +209,11 @@ export function QuizScreen(params) {
         panel.appendChild(b);
       }
     }
+
+    // 補習で解説してほしい
+    const help = helpButton(cur.id);
+    help.style.marginTop = '10px';
+    panel.appendChild(help);
 
     panel.appendChild(el('button', {
       class: 'btn', style: { marginTop: '12px' }, onclick: next,
