@@ -13,11 +13,20 @@ const FIREBASE_CONFIG = {
 const V = '12.0.0';
 export const MAX_GROUPS = 3;
 export const MIN_ANSWERED_FOR_ACCURACY = 10;
+
+// 期間指定ランキング用に、日別の解答数を何日分クラウドに保持するか
+export const DAILY_RETENTION_DAYS = 150;
+// 期間指定は集計を端末側で行うため、走査するユーザー数の上限
+const RANGE_SCAN_LIMIT = 600;
+
+export const RANGE_KIND = 'range';
 export const LEADERBOARD_TABS = [
   { key: 'todayCount', label: '今日', suffix: '問' },
   { key: 'weekCount', label: '今週', suffix: '問' },
+  { key: 'lifetimeAnswered', label: '累計', suffix: '問' },
   { key: 'streak', label: '連続記録', suffix: '日' },
   { key: 'accuracy', label: '正解率', suffix: '%' },
+  { key: RANGE_KIND, label: '期間指定', suffix: '問' },
 ];
 
 export function isFirebaseConfigured() {
@@ -87,6 +96,7 @@ export async function getCloudProfile() {
     weekCount: data.weekCount ?? 0, weekStart: data.weekStart ?? '',
     streak: data.streak ?? 0, accuracy: data.accuracy ?? 0,
     lifetimeAnswered: data.lifetimeAnswered ?? 0,
+    dailyCounts: data.dailyCounts ?? {},
   };
 }
 
@@ -106,16 +116,79 @@ export async function pushStats(stats) {
   if (!f || !user) return false;
   const { doc, setDoc, serverTimestamp } = f.fsMod;
   const today = todayStr();
-  await setDoc(doc(f.db, 'users', user.uid), {
+  const payload = {
     todayCount: stats.todayCount, todayDate: today,
     weekCount: stats.weekCount, weekStart: mondayOf(today),
     streak: stats.streak, accuracy: stats.accuracy,
     lifetimeAnswered: stats.lifetimeAnswered, updatedAt: serverTimestamp(),
-  }, { merge: true });
+  };
+  // 期間指定ランキング用の日別履歴(直近 DAILY_RETENTION_DAYS 日分)
+  if (stats.dailyCounts) payload.dailyCounts = trimDailyCounts(stats.dailyCounts, today);
+  await setDoc(doc(f.db, 'users', user.uid), payload, { merge: true });
+  if (stats.dailyCounts) pruneOldDailyCounts(f, user.uid, today).catch(() => {});
   return true;
 }
 
-export async function fetchMyEntry(kind) {
+// merge:true はネストしたマップをキー単位で統合するため、古い日付が消えずに残る。
+// 保持期間より古いキーだけを1日1回削除する。
+// (他端末が書いた最近のデータは消さないよう、範囲外のキーのみ対象にする)
+const PRUNE_MARK_KEY = 'spiral-daily-prune';
+async function pruneOldDailyCounts(f, uid, today) {
+  try {
+    if (localStorage.getItem(PRUNE_MARK_KEY) === today) return;
+  } catch {}
+  const { doc, getDoc, updateDoc, deleteField } = f.fsMod;
+  const ref = doc(f.db, 'users', uid);
+  const snap = await getDoc(ref);
+  const stored = snap.exists() ? snap.data().dailyCounts : null;
+  try { localStorage.setItem(PRUNE_MARK_KEY, today); } catch {}
+  if (!stored) return;
+  const oldest = shiftDate(today, -(DAILY_RETENTION_DAYS - 1));
+  const updates = {};
+  for (const key of Object.keys(stored)) {
+    if (key < oldest || key > today) updates[`dailyCounts.${key}`] = deleteField();
+  }
+  if (Object.keys(updates).length) await updateDoc(ref, updates);
+}
+
+// 'YYYY-MM-DD' は辞書順=日付順なので文字列比較で範囲判定できる。
+export function shiftDate(dateStr, days) {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const dt = new Date(y, m - 1, d);
+  dt.setDate(dt.getDate() + days);
+  const p = (n) => (n < 10 ? `0${n}` : String(n));
+  return `${dt.getFullYear()}-${p(dt.getMonth() + 1)}-${p(dt.getDate())}`;
+}
+
+export function trimDailyCounts(dailyCounts, today = todayStr()) {
+  const oldest = shiftDate(today, -(DAILY_RETENTION_DAYS - 1));
+  const out = {};
+  for (const [date, n] of Object.entries(dailyCounts)) {
+    if (typeof n !== 'number' || n <= 0) continue;
+    if (date < oldest || date > today) continue;
+    out[date] = n;
+  }
+  return out;
+}
+
+// 指定期間(両端を含む)の解答数を合計する。
+export function sumDailyRange(dailyCounts, start, end) {
+  if (!dailyCounts || typeof dailyCounts !== 'object') return 0;
+  if (start && end && start > end) [start, end] = [end, start];
+  let total = 0;
+  for (const [date, n] of Object.entries(dailyCounts)) {
+    if (typeof n !== 'number' || !Number.isFinite(n)) continue;
+    if (start && date < start) continue;
+    if (end && date > end) continue;
+    total += n;
+  }
+  return total;
+}
+
+export function todayString() { return todayStr(); }
+export function weekStartString(dateStr = todayStr()) { return mondayOf(dateStr); }
+
+export async function fetchMyEntry(kind, range) {
   const p = await getCloudProfile();
   if (!p || !p.nickname) return null;
   const today = todayStr();
@@ -123,7 +196,9 @@ export async function fetchMyEntry(kind) {
   let value;
   if (kind === 'todayCount') value = p.todayDate === today ? p.todayCount : 0;
   else if (kind === 'weekCount') value = p.weekStart === week ? p.weekCount : 0;
+  else if (kind === 'lifetimeAnswered') value = p.lifetimeAnswered;
   else if (kind === 'accuracy') value = p.accuracy;
+  else if (kind === RANGE_KIND) value = sumDailyRange(p.dailyCounts, range?.start, range?.end);
   else value = p.streak;
   return { uid: p.uid, nickname: p.nickname, value };
 }
@@ -146,6 +221,52 @@ export async function fetchLeaderboard(kind, topN = 50) {
     rows.push({ uid: d.id, nickname: data.nickname, value: data[kind] ?? 0 });
   });
   return rows.slice(0, topN);
+}
+
+// 期間指定ランキング(全体)。日別履歴を端末側で合計する。
+// lifetimeAnswered 降順で走査するため、解答が1問も無い人は自然に対象外になる。
+export async function fetchRangeLeaderboard(start, end, topN = 50) {
+  const f = await ensureFb();
+  if (!f) return [];
+  const { collection, query, orderBy, limit, getDocs } = f.fsMod;
+  const snap = await getDocs(
+    query(collection(f.db, 'users'), orderBy('lifetimeAnswered', 'desc'), limit(RANGE_SCAN_LIMIT)),
+  );
+  const rows = [];
+  snap.forEach((d) => {
+    const data = d.data();
+    if (!data.nickname) return;
+    const value = sumDailyRange(data.dailyCounts, start, end);
+    if (value <= 0) return;
+    rows.push({ uid: d.id, nickname: data.nickname, value });
+  });
+  rows.sort((a, b) => b.value - a.value);
+  return rows.slice(0, topN);
+}
+
+// 期間指定ランキング(グループ)。
+export async function fetchGroupRangeLeaderboard(code, start, end, topN = 50) {
+  const f = await ensureFb();
+  if (!f) return [];
+  const { collection, query, where, getDocs } = f.fsMod;
+  const collected = new Map();
+  const queries = [
+    query(collection(f.db, 'users'), where('groupCodes', 'array-contains', code)),
+    query(collection(f.db, 'users'), where('groupCode', '==', code)),
+  ];
+  for (const q of queries) {
+    try {
+      (await getDocs(q)).forEach((d) => {
+        if (collected.has(d.id)) return;
+        const data = d.data();
+        if (!data.nickname) return;
+        const value = sumDailyRange(data.dailyCounts, start, end);
+        if (value <= 0) return;
+        collected.set(d.id, { uid: d.id, nickname: data.nickname, value });
+      });
+    } catch {}
+  }
+  return [...collected.values()].sort((a, b) => b.value - a.value).slice(0, topN);
 }
 
 // ── グループ ──

@@ -194,6 +194,17 @@ button { font-family: inherit; cursor: pointer; }
 .lb-nick { flex: 1; font-weight: 700; }
 .lb-val { color: var(--primary); font-weight: 900; }
 
+/* 期間指定ランキングの日付ピッカー */
+.range-box { background: var(--surface-alt); border: 1px solid var(--border); border-radius: 14px; padding: 10px; margin-top: 6px; }
+.range-row { display: flex; align-items: center; gap: 8px; }
+.range-sep { color: var(--muted); font-weight: 800; flex-shrink: 0; }
+.date-input {
+  flex: 1; min-width: 0; border: 1px solid var(--border); border-radius: 10px;
+  padding: 10px 8px; font-size: 15px; font-family: inherit;
+  background: var(--surface); color: var(--text); text-align: center;
+}
+.range-caption { padding: 4px 16px 0; font-size: 13px; font-weight: 800; color: var(--primary-dark); }
+
 .info-card { background: var(--surface-alt); border: 1px solid var(--border); border-radius: 16px; padding: 14px; margin: 8px 16px; }
 .info-card .it { font-size: 12px; line-height: 1.7; }
 .info-card .bold { font-weight: 900; color: var(--primary-dark); }

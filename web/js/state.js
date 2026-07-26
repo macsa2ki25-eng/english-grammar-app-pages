@@ -78,8 +78,13 @@ export async function refresh() {
     }
     const todayCount = daily.get(today)?.answered ?? 0;
     const accuracy = lifetime.answered > 0 ? Math.round((lifetime.correct / lifetime.answered) * 100) : 0;
+    const dailyCounts = {};
+    for (const [date, s] of daily) {
+      if (s.answered > 0) dailyCounts[date] = s.answered;
+    }
     pushStats({
-      todayCount, weekCount, streak: state.streak.days, accuracy, lifetimeAnswered: lifetime.answered,
+      todayCount, weekCount, streak: state.streak.days, accuracy,
+      lifetimeAnswered: lifetime.answered, dailyCounts,
     }).catch(() => {});
   }
   emit();
