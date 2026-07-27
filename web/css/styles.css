@@ -48,6 +48,8 @@ button { font-family: inherit; cursor: pointer; }
 }
 #tabbar button .ic { font-size: 22px; line-height: 1; }
 #tabbar button.active { color: var(--primary); }
+/* クイズ中はタブバーを隠して縦のスペースを確保する */
+body[data-screen="quiz"] #tabbar { display: none; }
 
 /* ── 共通 ── */
 .page-title { font-size: calc(26px * var(--fs)); font-weight: 800; padding: 16px 16px 8px; }
@@ -133,12 +135,17 @@ button { font-family: inherit; cursor: pointer; }
   position: fixed; left: 0; right: 0; bottom: 0; margin-left: auto; margin-right: auto;
   max-width: var(--maxw); background: var(--surface);
   border-radius: 20px 20px 0 0;
-  padding: 16px 16px calc(14px + env(safe-area-inset-bottom, 0px));
-  box-shadow: 0 -6px 24px rgba(0,0,0,.14); max-height: 82dvh; max-height: 82svh;
-  display: grid; grid-template-rows: auto minmax(0, 1fr) auto;
+  padding: 14px 16px calc(12px + env(safe-area-inset-bottom, 0px));
+  box-shadow: 0 -6px 24px rgba(0,0,0,.14);
+  /* 古いiOS(dvh/svh未対応)でも必ず高さが制限されるようフォールバックを重ねる */
+  max-height: 86%;
+  max-height: 86dvh;
+  max-height: 86svh;
+  display: flex; flex-direction: column;
+  z-index: 40;                       /* 下部タブバーより前面に出す */
   animation: slideup .32s cubic-bezier(.2,.9,.3,1);
 }
-.panel-actions { padding-top: 8px; display: flex; flex-direction: column; gap: 8px; }
+.panel-actions { flex: 0 0 auto; padding-top: 8px; display: flex; flex-direction: column; gap: 8px; }
 .panel-btn-row { display: flex; gap: 8px; }
 .panel-btn-row .btn { width: auto; flex: 1.3; padding: 13px 8px; }
 .panel-btn-row .help-btn { flex: 1; padding: 13px 8px; box-shadow: 0 3px 0 var(--test-tint); }
@@ -153,7 +160,7 @@ button { font-family: inherit; cursor: pointer; }
 .verdict .vtext { font-size: calc(24px * var(--fs)); font-weight: 900; }
 .verdict.correct .vtext { color: var(--correct); }
 .verdict.wrong .vtext { color: var(--wrong); }
-.detail { overflow-y: auto; min-height: 0; }
+.detail { flex: 1 1 auto; min-height: 0; overflow-y: auto; -webkit-overflow-scrolling: touch; }
 .block-label { font-weight: 800; color: var(--primary-dark); font-size: 13px; margin: 10px 0 4px; }
 .block-text { font-size: calc(14px * var(--fs)); line-height: 1.7; white-space: pre-wrap; }
 .column-box { background: var(--surface-alt); border: 1px solid var(--border); border-radius: 12px; padding: 12px; margin-top: 10px; }
@@ -168,12 +175,14 @@ button { font-family: inherit; cursor: pointer; }
 .score-frac { color: var(--muted); font-weight: 700; }
 
 /* ── カレンダー ── */
-.cal-grid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); grid-template-rows: 22px; grid-auto-rows: 46px; align-content: start; gap: 4px; padding: 4px 0; width: 100%; }
-.cal-wcell { display: flex; align-items: center; justify-content: center; font-size: 11px; color: var(--muted); font-weight: 700; }
-.cal-cell { min-height: 46px; min-width: 0; overflow: hidden; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 12px; padding: 2px; }
-.cal-cell.active { background: var(--primary-light); }
-.cal-cell.empty { background: var(--surface-alt); color: var(--muted); }
-.cal-cell.today { outline: 2px solid var(--gold); }
+/* カレンダー: 1週=1行のフレックス。列幅は全行で同じ計算になるので必ず揃う */
+.cal-grid { display: flex; flex-direction: column; gap: 4px; padding: 4px 0; width: 100%; }
+.cal-week { display: flex; gap: 4px; width: 100%; }
+.cal-wcell { flex: 1 1 0; min-width: 0; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 11px; color: var(--muted); font-weight: 700; }
+.cal-cell { flex: 1 1 0; min-width: 0; height: 46px; overflow: hidden; border-radius: 8px; display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 12px; padding: 2px; }
+.cal-cell.cal-done { background: var(--primary-light); }
+.cal-cell.cal-none { background: var(--surface-alt); color: var(--muted); }
+.cal-cell.cal-today { outline: 2px solid var(--gold); outline-offset: -2px; }
 .cal-cell .n { font-weight: 700; }
 .cal-cell .a { font-size: 10px; color: var(--primary-dark); font-weight: 800; }
 .cal-head { display: flex; align-items: center; justify-content: space-between; }

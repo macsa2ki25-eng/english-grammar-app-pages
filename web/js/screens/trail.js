@@ -73,17 +73,23 @@ export function TrailScreen() {
     el('div', { style: { fontWeight: 800 }, text: `${viewMonth.year}年${viewMonth.month + 1}月` }),
     el('button', { text: '›', onclick: () => { viewMonth = shiftMonth(viewMonth, 1); rerenderTrail(); } }),
   ]));
-  // 曜日ヘッダーも同じグリッドに入れて列を完全一致させる
+  // 1週=1行のフレックスで組む(gridの行計算はiOSで崩れることがあるため)
   const grid = el('div', { class: 'cal-grid' });
-  for (const w of WEEK) grid.appendChild(el('div', { class: 'cal-wcell', text: w }));
-  for (const cell of buildCalendar(viewMonth.year, viewMonth.month)) {
-    if (!cell.inMonth) { grid.appendChild(el('div', { class: 'cal-cell' })); continue; }
-    const answered = daily.get(cell.date)?.answered ?? 0;
-    const cls = 'cal-cell ' + (answered > 0 ? 'active' : 'empty') + (cell.date === todayStr ? ' today' : '');
-    grid.appendChild(el('div', { class: cls }, [
-      el('div', { class: 'n', text: String(cell.day) }),
-      answered > 0 ? el('div', { class: 'a', text: `${answered}問` }) : null,
-    ]));
+  grid.appendChild(el('div', { class: 'cal-week' }, WEEK.map((w) => el('div', { class: 'cal-wcell', text: w }))));
+  const cells = buildCalendar(viewMonth.year, viewMonth.month);
+  for (let i = 0; i < cells.length; i += 7) {
+    const week = el('div', { class: 'cal-week' });
+    for (const cell of cells.slice(i, i + 7)) {
+      if (!cell.inMonth) { week.appendChild(el('div', { class: 'cal-cell' })); continue; }
+      const answered = daily.get(cell.date)?.answered ?? 0;
+      // 'empty' はアプリ全体の空状態スタイル(.empty)と衝突するので使わない
+      const cls = 'cal-cell ' + (answered > 0 ? 'cal-done' : 'cal-none') + (cell.date === todayStr ? ' cal-today' : '');
+      week.appendChild(el('div', { class: cls }, [
+        el('div', { class: 'n', text: String(cell.day) }),
+        answered > 0 ? el('div', { class: 'a', text: `${answered}問` }) : null,
+      ]));
+    }
+    grid.appendChild(week);
   }
   calCard.appendChild(grid);
   wrap.appendChild(calCard);

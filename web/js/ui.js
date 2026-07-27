@@ -93,6 +93,8 @@ export function canGoBack() { return stacks[activeTab].length > 0; }
 export function render() {
   if (!rootEl) return;
   const cur = currentScreen();
+  // クイズ中は下部タブバーを隠す(解説パネルのボタンが隠れないように)
+  document.body.dataset.screen = cur.name;
   const fn = registry.get(cur.name);
   rootEl.innerHTML = '';
   rootEl.scrollTop = 0;
